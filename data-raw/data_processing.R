@@ -9,6 +9,7 @@ library(here)
 library(readr)
 library(readxl)
 library(openxlsx)
+library(dplyr)
 
 # Read data --------------------------------------------------------------------
 codebook_qualitative_sheet1 <- read_excel(
@@ -36,6 +37,22 @@ flipcharts_part2 <- read_excel(
 
 # Tidy data --------------------------------------------------------------------
 ## Clean the raw data into a tidy format here
+
+# Fix Sheet 2 by adding the two missing rows (issue #1)
+# Create the two missing rows that exist in Sheet 1 but not in Sheet 2
+missing_rows <- data.frame(
+  category = c(NA, NA),
+  subcategory = c("data misuse", "scientific benefits"),
+  code = c(NA, NA),
+  frequency = c(1, 1)
+)
+
+# Add the missing rows to Sheet 2
+codebook_qualitative_sheet2 <- bind_rows(codebook_qualitative_sheet2, missing_rows)
+
+# Verify the sum is now 283
+sheet2_sum <- sum(codebook_qualitative_sheet2$frequency, na.rm = TRUE)
+cat("Sheet 2 frequency sum after adding missing rows:", sheet2_sum, "\n")
 
 # Export Data ------------------------------------------------------------------
 usethis::use_data(dataitd24, overwrite = TRUE)
