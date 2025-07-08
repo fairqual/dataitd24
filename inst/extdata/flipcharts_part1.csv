@@ -1,0 +1,218 @@
+group,question_no,individual_thought_postits,type,comment,umbrella_term_postits
+a,1,conent analysis,lived,NA,NA
+a,1,storytelling diagrams? (draw and tell),lived,NA,NA
+a,1,interview transcripts,lived,NA,NA
+a,1,workshop (post-its),lived,NA,NA
+a,1,participatory observations,imagined,NA,NA
+a,1,video - creation and analysis (videographics?),imagined,NA,NA
+a,1,semi-structured interviews with farmers,lived,NA,NA
+a,1,workshop materials from Td processes,imagined,NA,NA
+a,1,"semi-structured interviews, quotes",lived,NA,NA
+a,1,oral (hi)stories (from indigenous people),lived,NA,NA
+a,1,"workshop remarks, quotes",lived,NA,NA
+a,1,interview data with citizen scientists,lived,NA,NA
+a,1,"meeting dcoumentation, transcripts (in citizen science project)",lived,NA,NA
+a,1,self-reflection portfolio on academic skills,lived,NA,NA
+a,1,rubric (quantitative),lived,NA,NA
+a,1,experience (qualitative),lived,NA,NA
+a,1,reflection (qualitative),lived,NA,NA
+a,1,"focus groups with students, teachers and course coordinators",lived,NA,NA
+a,1,evaluations made by an external evaluator,lived,ghost?,NA
+a,1,"documents from a graduate programe (plans, emails, study plans, etc.)",lived,ghost?,NA
+a,1,video recording of teaching for talk-back interviews with students and teachers,imagined,ghost?,NA
+a,1,materials produced by the external stakeholders,imagined,ghost?,NA
+a,2,"""available on request""",lived,ov?,NA
+a,2,publish open -> re-use in other field,lived,ov?,NA
+a,2,share raw data confientially between involved researchers,lived,NA,NA
+a,2,thematic analysis of +/- 200 portfolios -> We did it by hand but this is not sustainable. -> We  could share with AI,imagined,NA,NA
+a,2,"I put on my manuscript that data is available upon reasonable request, knowing I would have to (extra) anonomize the whole thing, hoping no one will ask…",lived,NA,NA
+a,2,"report for the broader public / citizen scientists with some quotes from the interview data -> shares knowldege and ""stamp of scientist"" approval with the citizen scientists",lived,NA,public funding = public data
+a,2,a feedback session with poster format compiling results in friendly-graphic-format,imagined,NA,NA
+a,2,miro or whiteboards open all the time to new inputs,imagined,NA,NA
+a,2,benefit: participant can see and reflect on the data to take decisision and actions important for them,imagined,NA,NA
+a,2,exchange with those that couldn't participate,imagined,refers to workshop materials from Td processes,public funding = public data
+a,2,I imagine sharing the data in an excerpted version,imagined,ghost?,public funding = public data
+a,2,"scientific journal SI with coding frequencies, respondent demographics and interview protocols",lived,refers to semi-structured interviews with farmers,NA
+a,3,conflict of interest (misuse data),imagined,ghost?,NA
+a,3,worry about quoting out of context and politication,lived,ov?,NA
+a,3,confidentiality helps build trust (e.g. chatham house rules),lived,NA,NA
+a,3,saying something != transfer intellectual ownership,lived,NA,so much work to collect data / others exploit
+a,3,"the interview data, even without personal detais, is very specific and could easily lead to to particular persons. To really anonymize would remove valuable information",lived,NA,misuse of data
+a,3,research ethics board require confidentiality  + lots of work to clean and anonymize data,lived,refers to semi-structured interviews with farmers,so much work to collect data / others exploit
+a,3,confidentiality and ethics promised to the informants,imagined,ghost?,so much work to collect data / others exploit
+a,3,GPDR compliance (general data protection regulation),lived,ov?,so much work to collect data / others exploit
+a,3,"too much paperwork complicate procedures for participants, ""not readable"" to work, participate. Too complicated!",imagined,NA,misuse of data
+a,3,what is the real benefit for a non-academic actor to participate and share data and info?,imagined,NA,NA
+a,3,lack of knowledge and experience of new (ERC) researchers in qualitative TD about methods and the consequences of misuse data,imagined,NA,NA
+a,3,how to link to context?,imagined,refers to workshop materials from Td processes,NA
+a,3,diffuse intellectual ownership of data,lived,NA,NA
+a,3,lack of the awareness on the consquences of misuses data,imagined,NA,NA
+a,3,risk of analysing out of context (distorting the data),imagined,ghost?,"breakdown of trust from respondents ""traveling data"""
+a,4,what happens if the results and products of a project have a commercial output (innovations) and participants request share profits?,imagined,NA,NA
+a,4,what is the evidence and knowledge on this topic so far?,imagined,ghost?,how to share benefits or loses?
+a,4,"what is ""valuable"" data? (that needs to be protected)",imagined,NA,how to share benefits or loses?
+a,4,can I use IA and other tools (free) for transcription? Is this a problem?,imagined,NA,how to navigate AI?
+a,4,what could be potential legal consequences for researchers who don't know how to manage data?,imagined,NA,NA
+a,4,how safe/secure is AI usage? -> What programs can we use?,imagined,NA,how to navigate AI?
+a,4,"how to identify if your data is sensitive? e.g. experience or perspectives of farmers, are those sensitive data?",imagined,NA,NA
+a,4,will my interviews be effective if respondents know they will be shared?,lived,NA,workshop
+a,4,will people self-edit?,imagined,NA,who has authority over the data?
+a,4,how to create mechanisms for avoiding misuse of data for politics purposes?,imagined,ea?,who has authority over the data?
+a,5,from round 2 - not clear where placed during round 1,na,NA,diffuse ownership of raw data
+a,5,from round 2 - not clear where placed during round 1,na,NA,politization of data
+b,1,"outcome from workshop (flipchart, protocols)",lived,NA,workshop
+b,1,interactive formats,lived,NA,workshop
+b,1,published scholary literature and grey literature,lived,NA,literature review
+b,1,scientific publications,lived,NA,literature review
+b,1,industry / company strategy and guidance (published),lived,NA,literature review
+b,1,document / surveys analysis,lived,NA,document analysis
+b,1,company-level documents (not-published),lived,NA,document analysis
+b,1,publicly available documents,lived,NA,document analysis
+b,1,laws and regulations,lived,NA,laws and legislation
+b,1,"information from interviews (facts, opinions)",lived,NA,interviews
+b,1,interview data with citizen scientists,lived,NA,interviews
+b,1,results from interviews / workshops / simulations (produced in self-organised format),lived,NA,"interviews, workshops"
+b,1,qualitative interviews,lived,NA,interviews
+b,1,interviews and informal talks,lived,NA,interviews
+b,1,ethnographic data on (daily) practices of practices of practitioners / professionals,imagined,NA,observations
+b,1,observing evaluation panel meeting of funding applications,lived,NA,observations
+b,1,fieldnotes (are these qualitative data)?,lived,NA,fieldwork
+b,1,in-situ observations,lived,NA,fieldwork
+b,1,photography,lived,NA,fieldwork
+b,1,spatial mapping (co-created maps),lived,NA,mapping
+b,1,(open-access) cartographic data,lived,NA,mapping
+b,2,use prior informed consent (pic),imagined,NA,NA
+b,2,a public exhibition and talk,lived,NA,public event or exhibition
+b,2,presentation during stakeholder meetings (as summary),lived,NA,public event or exhibition
+b,2,cartography or/f visual representation,lived,NA,cartography
+b,2,storing in database?,imagined,NA,NA
+b,2,from a colleague: grant access to the database for meta-reflections on the td research,lived,NA,visiting fellowships and collaborations
+b,2,"popular writing, dissemination",imagined,NA,publications != types
+b,2,scientific publications,lived,NA,publications != types
+b,2,scientific article,lived,NA,publications != types
+b,2,scientific publication (as summary),lived,NA,publications != types (ask bianca what is meant)
+b,2,publication / open-access analysis,lived,NA,publications != types
+b,2,policy papers (recommendation to l(?)egislators),lived,NA,publications != types
+b,2,presentation in project report (as summary),lived,NA,publications != types
+b,2,I usually share my data by means of repositories at my home institutions,lived,NA,NA
+b,2,I don't share raw interview data. Data from publically available documents is already open,lived,NA,do not share raw data
+b,2,don't share protocols from interactive formats,lived,NA,do not share raw data
+b,2,"letters to specific stakeholders (containing recommendations, insights)",imagined,NA,NA
+b,2,metadata? Summaries / description of data - PRISMA diagrams etc,lived,NA,metadata
+b,2,I think I have shared associcated qual documents (not raw data) like interview schedules,lived,NA,"associated documents: guidelines, summaries"
+b,2,when data are sensitive in a dialouge or interview (so one can still control what / how data are shared),imagined,NA,informal encounters / connections among team members
+b,2,informal talks (in an anomymised way) within the research team,lived,NA,informal encounters / connections among team members
+b,3,publishing implicit knowledge,lived,NA,what is data? what is work in progress? / traditions of researchers
+b,3,data in progress,lived,NA,what is data? what is work in progress? / traditions of researchers
+b,3,"documentation of interactive formats (interview, workshops)",lived,NA,what happens when anonimyzation does not work?
+b,3,confidentiality,lived,NA,what happens when anonimyzation does not work?
+b,3,the data are case-specific that they cannot be annonymized,lived,NA,what happens when anonimyzation does not work?
+b,3,how to overcome extractive research?,imagined,NA,extractive attitude
+b,3,parts of the interview-data taken out of context and misused. E.g. a generalization based of one of thirty interviews,imagined,NA,misuse or decontextualization of data
+b,4,do we need to publish interview protocolls?,lived,NA,NA
+b,4,how to involve stakeholders in processes of data sharing?,lived,NA,NA
+b,4,(mis)use without consent,imagined,NA,NA
+b,4,"what / how much context should (or could) be ""attached"" to data?",imagined,NA,NA
+b,4,"question of authorship of co-created data e.g. spatial maps drawn by landscape and architecture students, base on a interview",imagined,NA,authorship
+c,1,"co-produced workshop material (mind-maps, tables, post-it notes)",lived,NA,"""messy"" workshop data"
+c,1,"would like to use ""creative"" data. Not sure what it would look like",imagined,NA,"""messy"" workshop data"
+c,1,workshop data (to support interview data & participatory collective analysis),lived,NA,"""messy"" workshop data"
+c,1,interview data with some observational data (but less so),lived,not sure if correct umbrella term,"""messy"" workshop data"
+c,1,data from workshops,lived,NA,"""messy"" workshop data"
+c,1,"interview data (audio data, transcripts)",lived,NA,investigative journalism - interviews (sensitive!)
+c,1,online interviews,lived,NA,investigative journalism - interviews (sensitive!)
+c,1,I have used analysis of contents produced by investigative jouralism,lived,NA,investigative journalism - interviews (sensitive!)
+c,1,"interviews, observation from participation of investigative journalists exposing abuses against asylum seekers across the US - Mexico boarder",lived,NA,investigative journalism - interviews (sensitive!)
+c,1,data from qualitative interviews,lived,NA,investigative journalism - interviews (sensitive!)
+c,1,photos we (= the facilitators) took,lived,NA,photos
+c,1,photos the participating actors took,lived,NA,photos
+c,1,life experiences,imagined,NA,"story telling, oral traditions"
+c,1,focus group panels,lived,NA,focus groups - taped group discussions
+c,1,focus groups (online / in person),lived,NA,focus groups - taped group discussions
+c,1,data wish to use: Experiences of people in tech jobs + students studying IT / data science: technostress,imagined,NA,online data
+c,1,more data from Africa related to education of students and comparison with Europe / US / Australia,imagined,NA,online data
+c,1,artistic forms of representation,imagined,NA,artistic experiences
+c,1,video material,imagined,NA,"videos, films"
+c,1,"fieldnotes, observations from workshops",lived,NA,"notes, also personal reflections from researchers"
+c,1,"notes from td team meetings, discussions, etc.",imagined,NA,"notes, also personal reflections from researchers"
+c,2,upon request,imagined,NA,upon request
+c,2,sharing data in summarized form with participating actors,imagined,NA,"reports, policy briefs, synthesis, results (internal)"
+c,2,sharing digitalized workshop materials with actors (workshop with county administrative board),lived,NA,"reports, policy briefs, synthesis, results (internal)"
+c,2,grey literature,lived,NA,"reports, policy briefs, synthesis, results (internal)"
+c,2,we have an institutional data repository. Depends on ethics forms if data will be shared.,lived,NA,sharing anonymized data (no names)
+c,2,anonymize data. Benefits include exposing broader audiences and academics to the human violations & rights / challenges of journalists,imagined,NA,sharing anonymized data (no names)
+c,2,"conferences, workshops",lived,NA,oral presentation
+c,2,"simulate Greek agora, respective all points of view",imagined,NA,oral presentation
+c,2,workshop with non academic actors,imagined,not sure if correct umbrella term,online repository
+c,2,share online will make research easier and collaboration easier,imagined,NA,online repository
+c,2,"Benefits: transparency, reproducibility, less burden for those who provide the data, re-analysis possible",imagined,NA,"speed, lower burden for data sharers, triangulation, more data, transparency, reproducability"
+c,2,sharing quali data would help understand how widely shared itdr challenges are / how to mitigate / develop toolkits,imagined,NA,"triangulation, more data"
+c,2,would like to share to support longlitudinal analysis.,imagined,NA,"triangulation, more data"
+c,3,sharing data with social partners / need emerges after having signed the consent form? How can this data truley be anonymized?,lived,NA,NA
+c,3,mistrust,imagined,NA,general mistrust in qualitative data
+c,3,acceptance,imagined,NA,general mistrust in qualitative data
+c,3,"how to ""truly"" anonymize the data?",imagined,NA,"how to ""truly"" anonymize data?"
+c,3,which repository?,imagined,NA,which repository??
+c,3,the unstructuredness of data,lived,NA,raw data = messy
+c,3,raw data = very messy -> would actors themselves set time aside to make sense of data?,lived,NA,raw data = messy
+c,3,how to deal with future AI applications?,imagined,NA,"use of AI (conduct intervies (chatbots), transcription software, evaluation, analysis)"
+c,3,getting permission from ethical committees,lived,ask christian what is meant by language,language
+c,3,kowing about the repsoitory rules before designing ehtics / collecting data. i.e. others may have developed the forms,lived,ask christian what is meant by language,language
+c,3,but it is ethically questionable to share much of the data due to sensitivity of the data - people lives are in danger,imagined,ask christian what is meant by language,language
+c,4,which data of value / interest to be shared?,imagined,NA,"""what is valuable"" to share?"
+c,4,are there standardised ways to describe / prepare data for repositories?,imagined,NA,guidelines and policies
+c,4,constitute data repositories. Is it enough?,imagined,NA,guidelines and policies
+c,4,how to make the consent form / procedure more attractive?,imagined,NA,atrractive consent forms
+c,4,"indigenous knowledges, data sovereignty",imagined,NA,indigenous data sovereignty
+c,4,trade of between gain trust vs. open access,imagined,NA,trade-off: trust and open-access
+c,4,how to be open and sensitive / protective at the same time,lived,NA,trade-off: trust and open-access
+c,4,where can I find data from Africa?,lived,NA,online-data from off-line countries
+c,5,from round 2 - not clear where placed during round 1,na,NA,moral responsibility to care (do no harm)
+c,5,from round 2 - not clear where placed during round 1,na,NA,transfer across projects and between partners
+c,5,from round 2 - not clear where placed during round 1,na,NA,ethics and permission (amendments)
+d,1,photovoice (photos + narratives),lived,NA,NA
+d,1,workshop outputs,lived,NA,NA
+d,1,"workshops: flipcharts, notes, photos, observations",lived,NA,NA
+d,1,workshop data -> participants (qualitative data),imagined,NA,NA
+d,1,workshop content,lived,NA,NA
+d,1,"output data from research projects (reporting) -> publication, dissemination science - policy",lived,NA,NA
+d,1,interviews,lived,NA,NA
+d,1,focus group discussions,lived,NA,NA
+d,1,observation,lived,NA,NA
+d,1,stakeholder workshops,lived,NA,NA
+d,1,oral history interviews,lived,NA,NA
+d,1,"interviews (recordings (voice), transcripts)",lived,NA,NA
+d,1,questionnaire,lived,NA,NA
+d,1,interview,lived,NA,NA
+d,1,informal interviews / exchange,lived,NA,NA
+d,1,data from participant observations,lived,NA,NA
+d,1,interviews,lived,NA,NA
+d,1,ethnographics,lived,NA,NA
+d,2,anonymised interview transcripts,imagined,NA,(pseudo) anonymization
+d,2,pseudoanonymization and publication (likely parts),lived,NA,(pseudo) anonymization
+d,2,how? Publications (anonymised ata),lived,NA,(pseudo) anonymization
+d,2,benefits? Researchers & policy-makers can use it.,lived,NA,NA
+d,2,common research questions with collaborative analysis,lived,NA,contact original research team
+d,2,locals had interest to archive and organised new consent,lived,NA,initiative of community becasue they see value
+d,2,sharing it within / as a case study to learn from,imagined,NA,NA
+d,2,"benefits: larger datasets, comparisons, qualitative data production is time intense -> sharing can reduce time",imagined,NA,NA
+d,2,public access to find synergies among stakeholders,lived,NA,usable platforms for research & end users -> run by communities or institiutions?
+d,2,snsf data portal,lived,NA,NA
+d,2,institutional platforms,lived,NA,NA
+d,2,platforms managed by communities?,imagined,NA,NA
+d,3,understanding the conditions under which data was generated (e.g. in workshop series),imagined,NA,ethical concerns
+d,3,informed consent prevented sharing,lived,NA,legal issues constraints
+d,3,"ethical issues, GDPR (general data protection)",lived,NA,ethical concerns
+d,3,platforms allowed to share (google docs etc. vs. local) vary depending on institutions,lived,NA,legal issues constraints
+d,3,how to make sure that data is used properly / not misused?,lived,NA,confidentiality
+d,3,"confidentiality agreements with societal actors (business data, economic data)",imagined,NA,confidentiality
+d,3,"transparency vs. Legal considerations (institutions, organisations)",imagined,NA,legal issues constraints
+d,3,not traceable to further specify,lived,ask tim,NA
+d,3,lack of context understanding that can lead to little advantage of,lived,NA,loss of context
+d,3,loss of context through anonymisation,imagined,NA,loss of context
+d,3,issues of pseudoanymization. Can there be ways to reconstruct actual identities?,lived,NA,loss of context
+d,3,anonymity on a larger scale: institutions / organisations,lived,"what if organisations need to be named / not many positions, easily traceable",NA
+d,3,"workload, willingness to share, usability of data -> dissemination, value of research, develop funding instruments",lived,NA,usability of the data
+d,4,clarity in terms of formats is sometimes difficult,imagined,NA,NA
+d,4,the software used and the structure,lived,NA,NA
+d,4,qualitative data is often highly contextual. How can we find a balance between anonymisation and preserving the context?,imagined,NA,NA
