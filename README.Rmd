@@ -195,21 +195,106 @@ readr::read_csv("data-raw/dictionary.csv") |>
 ```{r}
 library(dataitd24)
 library(dplyr)
+library(gt)
 
 # Most frequent codes in the qualitative analysis
 codebook_qualitative |>
   arrange(desc(frequency)) |>
-  head(10)
+  head(10) |>
+  gt() |>
+  tab_header(
+    title = "Top 10 Most Frequent Codes",
+    subtitle = "From qualitative content analysis of workshop materials"
+  ) |>
+  cols_label(
+    category = "Category",
+    subcategory = "Subcategory", 
+    code = "Code",
+    frequency = "Frequency"
+  ) |>
+  tab_style(
+    style = cell_fill(color = "#f0f0f0"),
+    locations = cells_body(rows = seq(2, 10, 2))
+  ) |>
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(columns = frequency)
+  ) |>
+  cols_width(
+    category ~ px(250),
+    subcategory ~ px(200),
+    code ~ px(150),
+    frequency ~ px(100)
+  ) |>
+  opt_table_font(font = "system-ui") |>
+  as_raw_html()
 
 # Count post-its by group and question in part 1
 flipcharts1 |>
   count(group, question_no) |>
-  tidyr::pivot_wider(names_from = question_no, values_from = n)
+  tidyr::pivot_wider(names_from = question_no, values_from = n) |>
+  gt() |>
+  tab_header(
+    title = "Post-it Notes Distribution",
+    subtitle = "Number of post-its by group and question number"
+  ) |>
+  cols_label(
+    group = "Group"
+  ) |>
+  tab_spanner(
+    label = "Question Number",
+    columns = 2:6
+  ) |>
+  tab_style(
+    style = cell_fill(color = "#e8f4ff"),
+    locations = cells_column_labels()
+  ) |>
+  tab_style(
+    style = cell_text(align = "center"),
+    locations = cells_body(columns = -group)
+  ) |>
+  sub_missing(missing_text = "—") |>
+  opt_table_font(font = "system-ui") |>
+  as_raw_html()
 
 # View challenges and approaches from part 2
 flipcharts2 |>
   filter(approach != "na") |>
-  select(challenge, approach)
+  select(challenge, approach) |>
+  gt() |>
+  tab_header(
+    title = "Workshop Part 2: Challenges and Approaches",
+    subtitle = "Key data sharing challenges and proposed solutions"
+  ) |>
+  cols_label(
+    challenge = "Challenge",
+    approach = "Proposed Approach"
+  ) |>
+  tab_style(
+    style = cell_text(size = px(12)),
+    locations = cells_body()
+  ) |>
+  cols_width(
+    challenge ~ px(300),
+    approach ~ px(400)
+  ) |>
+  tab_style(
+    style = list(
+      cell_fill(color = "#fff9e6"),
+      cell_borders(
+        sides = "left",
+        color = "#ffd700",
+        weight = px(3)
+      )
+    ),
+    locations = cells_body(columns = challenge)
+  ) |>
+  tab_style(
+    style = cell_fill(color = "#f0f8ff"),
+    locations = cells_body(columns = approach)
+  ) |>
+  opt_table_font(font = "system-ui") |>
+  as_raw_html()
 ```
 
 ## Ethics and Consent
