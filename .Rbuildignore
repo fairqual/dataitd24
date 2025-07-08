@@ -4,3 +4,7 @@
 ^LICENSE\.md$
 ^\.claude$
 ^CLAUDE\.md$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
