@@ -11,13 +11,31 @@ library(readxl)
 library(openxlsx)
 
 # Read data --------------------------------------------------------------------
-# data_in <- readr::read_csv("data-raw/dataset.csv")
+codebook_qualitative_sheet1 <- read_excel(
+  here::here("data-raw", "codebook_fairqual_workshop_itd24.xlsx"),
+  sheet = 1
+  )
+
+codebook_qualitative_sheet2 <- read_excel(
+  here::here("data-raw", "codebook_fairqual_workshop_itd24.xlsx"),
+  sheet = 2
+  )
+
+flipcharts_part1 <- read_excel(
+  here::here("data-raw", "digitized_flipcharts_fairqual_workshop_itd24.xlsx"),
+  sheet = "part_1"
+  )
+
+flipcharts_part2 <- read_excel(
+  here::here("data-raw", "digitized_flipcharts_fairqual_workshop_itd24.xlsx"),
+  sheet = "part_2"
+  )
+
 # codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
 #  clean_names()
 
 # Tidy data --------------------------------------------------------------------
 ## Clean the raw data into a tidy format here
-
 
 # Export Data ------------------------------------------------------------------
 usethis::use_data(dataitd24, overwrite = TRUE)
