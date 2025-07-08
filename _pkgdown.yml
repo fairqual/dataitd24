@@ -1,16 +1,16 @@
 
-url: https://github.com/openwashdata/dataitd24
+url: https://github.com/fairqual/dataitd24
 template:
   bootstrap: 5
   includes:
     in_header: |
-      <script defer data-domain="openwashdata.github.io" src="https://plausible.io/js/script.js"></script>
+      <script defer data-domain="fairqual.github.io" src="https://plausible.io/js/script.js"></script>
 
 home:
   links:
     - icon: github
       text: GitHub repository
-      href: https://github.com/openwashdata/dataitd24
+      href: https://github.com/fairqual/dataitd24
   sidebar:
     structure: [links, citation, authors, dev, custom]
     components:
