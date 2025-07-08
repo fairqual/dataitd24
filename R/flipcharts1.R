@@ -46,6 +46,7 @@
 #' 
 #' # Count post-its by group and question
 #' library(dplyr)
+#' library(tidyr)
 #' flipcharts1 %>%
 #'   count(group, question_no) %>%
 #'   pivot_wider(names_from = question_no, values_from = n)

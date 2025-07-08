@@ -1,13 +1,19 @@
 Package: dataitd24
-Title: What the Package Does (One Line, Title Case)
+Title: FAIRqual Workshop Data from ITD24
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Contains digitized flipchart data and qualitative analysis results
+    from the FAIRqual workshop at the International Transdisciplinary Conference
+    (ITD24) in Utrecht, November 2024. The workshop gathered experiences and
+    perspectives on sharing qualitative data in transdisciplinary research.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 3.5)
+Suggests:
+    dplyr,
+    tidyr
 LazyData: true
