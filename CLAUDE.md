@@ -73,3 +73,7 @@ data(codebook_qualitative)
 data(flipcharts1)
 data(flipcharts2)
 ```
+
+## Development Guidelines
+
+- Wrap text at 72 characters to maintain readability and compatibility with different editors
