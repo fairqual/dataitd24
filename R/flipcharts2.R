@@ -1,0 +1,59 @@
+#' Workshop Part 2 Challenge-Approach Data
+#' 
+#' Data from the second part of the FAIRqual workshop where groups
+#' were combined (a+c and b+d) to identify key challenges in sharing
+#' qualitative data and propose approaches to address them. This
+#' exercise focused on synthesizing insights from part 1 into
+#' actionable challenges and solutions.
+#' 
+#' @format A tibble with 9 rows and 3 variables:
+#' \describe{
+#'   \item{group}{Combined workshop groups. Character variable with
+#'   values "ac" (groups a and c combined) or "bd" (groups b and d
+#'   combined).}
+#'   \item{challenge}{Data sharing challenge identified by the group.
+#'   Character variable containing specific challenges such as
+#'   anonymization difficulties, data misuse concerns, ethics
+#'   alignment, AI implications, and politicization risks.}
+#'   \item{approach}{Proposed approach or solution to address the
+#'   identified challenge. Character variable containing strategies
+#'   like obtaining proper ethics approval, metadata documentation,
+#'   participant co-creation, and approval processes. Some entries
+#'   may be "na" where no specific approach was proposed.}
+#' }
+#' 
+#' @details
+#' In this workshop phase, the four original groups were merged into
+#' two larger groups to facilitate deeper discussion and synthesis.
+#' Each combined group identified multiple challenges and attempted
+#' to propose practical approaches for addressing them. The challenges
+#' reflect key concerns about sharing qualitative data in
+#' transdisciplinary research contexts.
+#' 
+#' @source FAIRqual Workshop at the International Transdisciplinary
+#' Conference (ITD24), Utrecht, Netherlands, November 4-8, 2024.
+#' 
+#' @seealso 
+#' \code{\link{codebook_qualitative}} for the analyzed results
+#' \code{\link{flipcharts1}} for the workshop part 1 data
+#' 
+#' @examples
+#' # Load the data
+#' data(flipcharts2)
+#' 
+#' # View all challenges and approaches
+#' flipcharts2
+#' 
+#' # Challenges by group
+#' library(dplyr)
+#' flipcharts2 %>%
+#'   group_by(group) %>%
+#'   summarise(
+#'     n_challenges = n(),
+#'     challenges = paste(challenge, collapse = "; ")
+#'   )
+#' 
+#' # Filter out entries without specific approaches
+#' flipcharts2 %>%
+#'   filter(approach != "na")
+"flipcharts2"

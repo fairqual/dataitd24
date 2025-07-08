@@ -1,14 +1,14 @@
 "directory","file_name","variable_name","variable_type","description"
-"data/","codebook_qualitative.rda","category","character",
-"data/","codebook_qualitative.rda","subcategory","character",
-"data/","codebook_qualitative.rda","code","character",
-"data/","codebook_qualitative.rda","frequency","numeric",
-"data/","flipcharts1.rda","group","character",
-"data/","flipcharts1.rda","question_no","numeric",
-"data/","flipcharts1.rda","individual_thought_postits","character",
-"data/","flipcharts1.rda","type","character",
-"data/","flipcharts1.rda","comment","character",
-"data/","flipcharts1.rda","umbrella_term_postits","character",
-"data/","flipcharts2.rda","group","character",
-"data/","flipcharts2.rda","challenge","character",
-"data/","flipcharts2.rda","approach","character",
+"data/","codebook_qualitative.rda","category","character","High-level thematic category from qualitative content analysis"
+"data/","codebook_qualitative.rda","subcategory","character","More specific topic within the main category"
+"data/","codebook_qualitative.rda","code","character","Detailed code assigned to workshop content"
+"data/","codebook_qualitative.rda","frequency","numeric","Number of times this code appeared in the workshop data"
+"data/","flipcharts1.rda","group","character","Workshop group identifier (a, b, c, or d)"
+"data/","flipcharts1.rda","question_no","numeric","Question number discussed (1-4)"
+"data/","flipcharts1.rda","individual_thought_postits","character","Content of individual post-it notes from participants"
+"data/","flipcharts1.rda","type","character","Type of experience shared (lived, imagined, or NA)"
+"data/","flipcharts1.rda","comment","character","Additional comments or notes about the post-it"
+"data/","flipcharts1.rda","umbrella_term_postits","character","Overarching theme or grouping assigned to related post-its"
+"data/","flipcharts2.rda","group","character","Combined workshop groups (ac or bd)"
+"data/","flipcharts2.rda","challenge","character","Data sharing challenge identified by the group"
+"data/","flipcharts2.rda","approach","character","Proposed approach or solution to address the challenge"
