@@ -1,8 +1,6 @@
 Package: dataitd24
 Title: FAIRqual Workshop Data from ITD24
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
 Description: Contains digitized flipchart data and qualitative analysis results
     from the FAIRqual workshop at the International Transdisciplinary Conference
     (ITD24) in Utrecht, November 2024. The workshop gathered experiences and
@@ -17,3 +15,20 @@ Suggests:
     dplyr,
     tidyr
 LazyData: true
+Authors@R: c(
+    person("Franziska", "Mohr", role = "aut",
+           comment = c(ORCID = "0000-0002-8323-7032")),
+    person("Lars", "Schöbitz", , "lschoebitz@ethz.ch", role = "cre",
+           comment = c(ORCID = "0000-0003-2196-5015")),
+    person("Mollie", "Chapman", role = "ctb",
+           comment = c(ORCID = "0000-0003-1399-2144")),
+    person("Bianca", "Vienni-Baptista", role = "ctb",
+           comment = c(ORCID = "0000-0003-1282-4288")),
+    person("Elizabeth", "Tilley", role = "ctb",
+           comment = c(ORCID = "0000-0002-2095-9724"))
+  )
+Language: en-GB
+Config/Needs/website: rmarkdown
+Date: 2025-07-08
+URL: https://github.com/openwashdata/dataitd24
+BugReports: https://github.com/openwashdata/dataitd24/issues
