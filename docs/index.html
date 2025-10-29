@@ -13,7 +13,7 @@
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="FAIRqual Workshop Data from ITD24">
 <meta name="description" content="Contains digitized flipchart data and qualitative analysis results from the FAIRqual workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024. The workshop gathered experiences and perspectives on sharing qualitative data in transdisciplinary research.">
 <meta property="og:description" content="Contains digitized flipchart data and qualitative analysis results from the FAIRqual workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024. The workshop gathered experiences and perspectives on sharing qualitative data in transdisciplinary research.">
-<script defer data-domain="openwashdata.github.io" src="https://plausible.io/js/script.js"></script>
+<script defer data-domain="fairqual.github.io" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -38,7 +38,7 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
-<li class="nav-item"><a class="nav-link" href="https://github.com/openwashdata/dataitd24/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/openwashdata/dataitd24/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -51,7 +51,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<!-- badges: end -->
+<p><a href="https://zenodo.org/doi/NULL" class="external-link"><img src="https://zenodo.org/badge/DOI/NULL.svg" alt="DOI"></a> <!-- badges: end --></p>
 <div class="section level2">
 <h2 id="about-the-dataset">About the Dataset<a class="anchor" aria-label="anchor" href="#about-the-dataset"></a>
 </h2>
@@ -112,18 +112,18 @@
 <tbody>
 <tr>
 <td align="left">codebook_qualitative</td>
-<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.csv" class="external-link">Download CSV</a></td>
-<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.xlsx" class="external-link">Download XLSX</a></td>
+<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.csv">Download CSV</a></td>
+<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.xlsx">Download XLSX</a></td>
 </tr>
 <tr>
 <td align="left">flipcharts1</td>
-<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.csv" class="external-link">Download CSV</a></td>
-<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.xlsx" class="external-link">Download XLSX</a></td>
+<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.csv">Download CSV</a></td>
+<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.xlsx">Download XLSX</a></td>
 </tr>
 <tr>
 <td align="left">flipcharts2</td>
-<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.csv" class="external-link">Download CSV</a></td>
-<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.xlsx" class="external-link">Download XLSX</a></td>
+<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.csv">Download CSV</a></td>
+<td align="left"><a href="https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.xlsx">Download XLSX</a></td>
 </tr>
 </tbody>
 </table>
@@ -133,7 +133,7 @@
 </h2>
 <p>The package provides access to three main datasets from the FAIRqual workshop:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/openwashdata/dataitd24">dataitd24</a></span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/openwashdata/dataitd24" class="external-link">dataitd24</a></span><span class="op">)</span></span></code></pre></div>
 <div class="section level3">
 <h3 id="codebook_qualitative">codebook_qualitative<a class="anchor" aria-label="anchor" href="#codebook_qualitative"></a>
 </h3>
@@ -143,7 +143,7 @@
 <span>  <span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fl">3</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">gt</span><span class="fu">::</span><span class="fu"><a href="https://gt.rstudio.com/reference/gt.html" class="external-link">gt</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu">gt</span><span class="fu">::</span><span class="fu"><a href="https://gt.rstudio.com/reference/as_raw_html.html" class="external-link">as_raw_html</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<div id="wktgbvqvlj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="krbttyezij" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 
 <table class="table gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -209,7 +209,7 @@ oral (hi)stories
 </div>
 <p>For an overview of the variable names, see the following table.</p>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; ">
-<table class="table table table-striped" style="color: black; margin-left: auto; margin-right: auto;">
+<table class="table table table-striped" style="margin-left: auto; margin-right: auto;">
 <thead><tr>
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
 variable_name
@@ -279,7 +279,7 @@ Number of times this code appeared in the workshop data
 <span>  <span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fl">3</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">gt</span><span class="fu">::</span><span class="fu"><a href="https://gt.rstudio.com/reference/gt.html" class="external-link">gt</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu">gt</span><span class="fu">::</span><span class="fu"><a href="https://gt.rstudio.com/reference/as_raw_html.html" class="external-link">as_raw_html</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<div id="orxwdvkjkt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="wvuaphnvdj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 
 <table class="table gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -368,7 +368,7 @@ NA
 </table>
 </div>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; ">
-<table class="table table table-striped" style="color: black; margin-left: auto; margin-right: auto;">
+<table class="table table table-striped" style="margin-left: auto; margin-right: auto;">
 <thead><tr>
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
 variable_name
@@ -460,7 +460,7 @@ Overarching theme or grouping assigned to related post-its
 <span>  <span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fl">3</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">gt</span><span class="fu">::</span><span class="fu"><a href="https://gt.rstudio.com/reference/gt.html" class="external-link">gt</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu">gt</span><span class="fu">::</span><span class="fu"><a href="https://gt.rstudio.com/reference/as_raw_html.html" class="external-link">as_raw_html</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<div id="qxthasxrlz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="mqhibdvnmr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 
 <table class="table gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -513,7 +513,7 @@ what is data; do not publish raw data (e.g. summaries); metadata on data collec
 </table>
 </div>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; ">
-<table class="table table table-striped" style="color: black; margin-left: auto; margin-right: auto;">
+<table class="table table table-striped" style="margin-left: auto; margin-right: auto;">
 <thead><tr>
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
 variable_name
@@ -568,7 +568,7 @@ Proposed approach or solution to address the challenge
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/openwashdata/dataitd24">dataitd24</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/openwashdata/dataitd24" class="external-link">dataitd24</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://gt.rstudio.com" class="external-link">gt</a></span><span class="op">)</span></span>
 <span></span>
@@ -603,7 +603,7 @@ Proposed approach or solution to address the challenge
 <span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://gt.rstudio.com/reference/opt_table_font.html" class="external-link">opt_table_font</a></span><span class="op">(</span>font <span class="op">=</span> <span class="st">"system-ui"</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://gt.rstudio.com/reference/as_raw_html.html" class="external-link">as_raw_html</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<div id="hliijhosre" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="xmldlhrqvl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 
 <table class="table gt_table" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; table-layout: fixed; width: 0px;" data-quarto-disable-processing="false" data-quarto-bootstrap="false" width="0" bgcolor="#FFFFFF">
@@ -813,7 +813,7 @@ sharing of certain aspect of data
 <span>  <span class="fu"><a href="https://gt.rstudio.com/reference/sub_missing.html" class="external-link">sub_missing</a></span><span class="op">(</span>missing_text <span class="op">=</span> <span class="st">"—"</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://gt.rstudio.com/reference/opt_table_font.html" class="external-link">opt_table_font</a></span><span class="op">(</span>font <span class="op">=</span> <span class="st">"system-ui"</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://gt.rstudio.com/reference/as_raw_html.html" class="external-link">as_raw_html</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<div id="pdzzhgopjt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ahrwejpglp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 
 <table class="table gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -980,7 +980,7 @@ d
 <span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://gt.rstudio.com/reference/opt_table_font.html" class="external-link">opt_table_font</a></span><span class="op">(</span>font <span class="op">=</span> <span class="st">"system-ui"</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://gt.rstudio.com/reference/as_raw_html.html" class="external-link">as_raw_html</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<div id="ggkagbmhhx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="gkaxkpuqhu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 
 <table class="table gt_table" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3; table-layout: fixed; width: 0px;" data-quarto-disable-processing="false" data-quarto-bootstrap="false" width="0" bgcolor="#FFFFFF">
@@ -1077,7 +1077,7 @@ legal partner checks; interview indigenous data stewards
 <div class="section level2">
 <h2 id="license">License<a class="anchor" aria-label="anchor" href="#license"></a>
 </h2>
-<p>Data are available as <a href="https://github.com/fairqual/dataitd24/blob/main/LICENSE.md" class="external-link">CC-BY</a>.</p>
+<p>Data are available as <a href="https://github.com/fairqual/dataitd24/blob/main/LICENSE.md">CC-BY</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
@@ -1087,18 +1087,20 @@ legal partner checks; interview indigenous data stewards
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"dataitd24"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; To cite package 'dataitd24' in publications use:</span></span>
 <span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt;   Mohr F (2025). _dataitd24: FAIRqual Workshop Data from ITD24_. R</span></span>
-<span><span class="co">#&gt;   package version 0.0.0.9000,</span></span>
+<span><span class="co">#&gt;   Mohr F, Schöbitz L (2025). "dataitd24: FAIRqual Workshop Data from</span></span>
+<span><span class="co">#&gt;   ITD24." doi:NULL &lt;https://doi.org/NULL&gt;,</span></span>
 <span><span class="co">#&gt;   &lt;https://github.com/openwashdata/dataitd24&gt;.</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; A BibTeX entry for LaTeX users is</span></span>
 <span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt;   @Manual{,</span></span>
+<span><span class="co">#&gt;   @Misc{mohr_etall:2025,</span></span>
 <span><span class="co">#&gt;     title = {dataitd24: FAIRqual Workshop Data from ITD24},</span></span>
-<span><span class="co">#&gt;     author = {Franziska Mohr},</span></span>
+<span><span class="co">#&gt;     author = {Franziska Mohr and Lars Schöbitz},</span></span>
 <span><span class="co">#&gt;     year = {2025},</span></span>
-<span><span class="co">#&gt;     note = {R package version 0.0.0.9000},</span></span>
+<span><span class="co">#&gt;     doi = {NULL},</span></span>
 <span><span class="co">#&gt;     url = {https://github.com/openwashdata/dataitd24},</span></span>
+<span><span class="co">#&gt;     abstract = {Contains digitized flipchart data and qualitative analysis results from the FAIRqual workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024. The workshop gathered experiences and perspectives on sharing qualitative data in transdisciplinary research.},</span></span>
+<span><span class="co">#&gt;     version = {0.0.0.9000},</span></span>
 <span><span class="co">#&gt;   }</span></span></code></pre></div>
 </div>
 <div class="section level2">
@@ -1124,9 +1126,9 @@ legal partner checks; interview indigenous data stewards
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/openwashdata/dataitd24/">Browse source code</a></li>
-<li><a href="https://github.com/openwashdata/dataitd24/issues">Report a bug</a></li>
-<li><a href="https://github.com/openwashdata/dataitd24">GitHub repository</a></li>
+<li><a href="https://github.com/openwashdata/dataitd24/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/openwashdata/dataitd24/issues" class="external-link">Report a bug</a></li>
+<li><a href="https://github.com/fairqual/dataitd24">GitHub repository</a></li>
 </ul>
 </div>
 
@@ -1142,10 +1144,28 @@ legal partner checks; interview indigenous data stewards
 <ul class="list-unstyled">
 <li>So <em>who</em> does the work?</li>
 <li>Franziska Mohr <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-8323-7032" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
-<li>Lars Schöbitz <br><small class="roles"> Maintainer </small> <a href="https://orcid.org/0000-0003-2196-5015" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 <li>Mollie Chapman <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0003-1399-2144" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
-<li>Bianca Vienni-Baptista <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0003-1282-4288" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Christian Pohl <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0002-7935-464X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Lars Schöbitz <br><small class="roles"> Maintainer </small> <a href="https://orcid.org/0000-0003-2196-5015" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 <li>Elizabeth Tilley <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0002-2095-9724" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Bianca Vienni-Baptista <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0003-1282-4288" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Marconi Albuquerque <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0002-0655-0666" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Erika Angarita <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0003-4553-9942" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Kirsi Cheas <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0001-9312-2784" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Wilma Coetzee <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0002-7418-4581" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Violaine Vera Charlotte Forsberg Mussault <br><small class="roles"> Contributor </small>   </li>
+<li>Tim Geiges <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0009-0007-6877-9902" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Vignir Freyr Helgason <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0002-5825-6418" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Tigran Keryan <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0002-0881-8232" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Julie Mennes <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0001-5763-8417" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Stephanie Moser <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0002-1564-447X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Aaron Rittmeier <br><small class="roles"> Contributor </small>   </li>
+<li>Elena Siegrist <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0009-0005-0391-1349" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Taru Silvonen <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0000-0001-7159-5337" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Oscar van Vliet <br><small class="roles"> Contributor </small>   </li>
+<li>Kirsten Vegt <br><small class="roles"> Contributor </small> <a href="https://orcid.org/0009-0008-7796-9553" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Christian Wagner-Ahlfs <br><small class="roles"> Contributor </small>   </li>
+<li>Pascal Walther <br><small class="roles"> Contributor </small>   </li>
 <li>Thanks all!</li>
 </ul>
 </div>

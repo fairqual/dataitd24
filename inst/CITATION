@@ -1,0 +1,17 @@
+
+bibentry(bibtype = "Misc",
+         key = "mohr_etall:2025",
+         title = "dataitd24: FAIRqual Workshop Data from ITD24",
+         author = c(person(given = "Franziska",
+                           family = "Mohr",
+                           email = "franziska.mohr@usys.ethz.ch",
+                           comment = c(ORCID = "0000-0002-8323-7032")),
+                    person(given = "Lars",
+                           family = "Schöbitz",
+                           email = "lschoebitz@ethz.ch",
+                           comment = c(ORCID = "0000-0003-2196-5015"))),
+         year = "2025",
+         doi = "NULL",
+         url = "https://github.com/openwashdata/dataitd24",
+         abstract = "Contains digitized flipchart data and qualitative analysis results from the FAIRqual workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024. The workshop gathered experiences and perspectives on sharing qualitative data in transdisciplinary research.",
+         version = "0.0.0.9000")
