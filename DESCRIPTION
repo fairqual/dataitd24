@@ -1,6 +1,6 @@
 Package: dataitd24
 Title: FAIRqual Workshop Data from ITD24
-Version: 0.0.0.9000
+Version: 0.1.0
 Description: Contains digitized flipchart data and qualitative analysis results
     from the FAIRqual workshop at the International Transdisciplinary Conference
     (ITD24) in Utrecht, November 2024. The workshop gathered experiences and
@@ -8,7 +8,7 @@ Description: Contains digitized flipchart data and qualitative analysis results
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5)
 Suggests:

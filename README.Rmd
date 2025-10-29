@@ -29,9 +29,7 @@ knitr::opts_chunk$set(
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-[![DOI](https://zenodo.org/badge/DOI/NULL.svg)](https://zenodo.org/doi/NULL)
-[![DOI](https://zenodo.org/badge/DOI/NULL.svg)](https://zenodo.org/doi/NULL)
-[![DOI](https://zenodo.org/badge/DOI/NULL.svg)](https://zenodo.org/doi/NULL)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17473502.svg)](https://zenodo.org/doi/10.5281/zenodo.17473502)
 <!-- badges: end -->
 
 ## About the Dataset

@@ -8,8 +8,8 @@ message: 'To cite package "dataitd24" in publications use:'
 type: software
 license: CC-BY-4.0
 title: 'dataitd24: FAIRqual Workshop Data from ITD24'
-version: 0.0.0.9000
-doi: 'NULL'
+version: 0.1.0
+doi: 10.5281/zenodo.17473502
 abstract: Contains digitized flipchart data and qualitative analysis results from
   the FAIRqual workshop at the International Transdisciplinary Conference (ITD24)
   in Utrecht, November 2024. The workshop gathered experiences and perspectives on

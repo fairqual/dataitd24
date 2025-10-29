@@ -92,4 +92,4 @@ bibentry(bibtype = "Misc",
          doi = "10.5281/zenodo.17473502",
          url = "https://github.com/openwashdata/dataitd24",
          abstract = "Contains digitized flipchart data and qualitative analysis results from the FAIRqual workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024. The workshop gathered experiences and perspectives on sharing qualitative data in transdisciplinary research.",
-         version = "0.1.0")
+         version = "0.0.0.9000")
