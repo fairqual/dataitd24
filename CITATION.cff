@@ -19,10 +19,89 @@ authors:
   given-names: Franziska
   email: franziska.mohr@usys.ethz.ch
   orcid: https://orcid.org/0000-0002-8323-7032
+- family-names: Chapman
+  given-names: Mollie
+  email: mollie.chapman@usys.ethz.ch
+  orcid: https://orcid.org/0000-0003-1399-2144
+- family-names: Pohl
+  given-names: Christian
+  orcid: https://orcid.org/0000-0002-7935-464X
 - family-names: Schöbitz
   given-names: Lars
   email: lschoebitz@ethz.ch
   orcid: https://orcid.org/0000-0003-2196-5015
+- family-names: Tilley
+  given-names: Elizabeth
+  email: tilleye@ethz.ch
+  orcid: https://orcid.org/0000-0002-2095-9724
+- family-names: Vienni-Baptista
+  given-names: Bianca
+  email: bianca.vienni@usys.ethz.ch
+  orcid: https://orcid.org/0000-0003-1282-4288
+- family-names: Albuquerque
+  given-names: Marconi
+  email: marconi.albuquerque@mcti.gov.br
+  orcid: https://orcid.org/0000-0002-0655-0666
+- family-names: Angarita
+  given-names: Erika
+  email: erika.angarita@thuenen.de
+  orcid: https://orcid.org/0000-0003-4553-9942
+- family-names: Cheas
+  given-names: Kirsi
+  email: kirsi-mari.cheas@uwasa.fi
+  orcid: https://orcid.org/0000-0001-9312-2784
+- family-names: Coetzee
+  given-names: Wilma
+  email: Wilma.Coetzee@nwu.ac.za
+  orcid: https://orcid.org/0000-0002-7418-4581
+- family-names: Forsberg Mussault
+  given-names: Violaine Vera Charlotte
+  email: Violaine.Mussault@aho.no
+- family-names: Geiges
+  given-names: Tim
+  email: tim.geiges@wsl.ch
+  orcid: https://orcid.org/0009-0007-6877-9902
+- family-names: Helgason
+  given-names: Vignir Freyr
+  email: Vignir.Freyr.Helgason@aho.no
+  orcid: https://orcid.org/0000-0002-5825-6418
+- family-names: Keryan
+  given-names: Tigran
+  email: tigran.keryan@boku.ac.at
+  orcid: https://orcid.org/0000-0002-0881-8232
+- family-names: Mennes
+  given-names: Julie
+  email: julie.mennes@gmail.com
+  orcid: https://orcid.org/0000-0001-5763-8417
+- family-names: Moser
+  given-names: Stephanie
+  email: stephanie.moser@unibe.ch
+  orcid: https://orcid.org/0000-0002-1564-447X
+- family-names: Rittmeier
+  given-names: Aaron
+  email: aaron.rittmeier@h-da.de
+- family-names: Siegrist
+  given-names: Elena
+  email: elena.siegrist@wsl.ch
+  orcid: https://orcid.org/0009-0005-0391-1349
+- family-names: Silvonen
+  given-names: Taru
+  email: taru.silvonen@bristol.ac.uk
+  orcid: https://orcid.org/0000-0001-7159-5337
+- family-names: Vliet
+  given-names: Oscar
+  name-particle: van
+  email: o.p.r.vanvliet@uu.nl
+- family-names: Vegt
+  given-names: Kirsten
+  email: kirsten.vegt@rivm.nl
+  orcid: https://orcid.org/0009-0008-7796-9553
+- family-names: Wagner-Ahlfs
+  given-names: Christian
+  email: cwagnerahlfs@kms.uni-kiel.de
+- family-names: Walther
+  given-names: Pascal
+  email: pascal.walther@snf.ch
 repository-code: https://github.com/openwashdata/dataitd24
 url: https://github.com/openwashdata/dataitd24
 date-released: '2025-07-08'

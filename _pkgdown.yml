@@ -6,6 +6,10 @@ template:
     in_header: |
       <script defer data-domain="fairqual.github.io" src="https://plausible.io/js/script.js"></script>
 
+articles:
+  exclude:
+    - CLAUDE.md
+
 home:
   links:
     - icon: github
