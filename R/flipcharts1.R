@@ -9,13 +9,14 @@
 #' \describe{
 #'   \item{group}{Workshop group identifier. Character variable with
 #'   values "a", "b", "c", or "d".}
-#'   \item{question_no}{Question number discussed. Numeric variable
-#'   with values 1-4, where:
+#'   \item{question_no}{Question number discussed. Character variable
+#'   with values "1", "2", "3", "4", or NA, where:
 #'   \itemize{
 #'     \item{1 = What types of qualitative data have you collected?}
 #'     \item{2 = Have you shared qualitative data? If yes, how?}
 #'     \item{3 = What challenges did you face when sharing?}
 #'     \item{4 = What would enable better data sharing?}
+#'     \item{NA = Post-its from round 2 where original question placement was unclear}
 #'   }}
 #'   \item{individual_thought_postits}{Content of individual post-it
 #'   notes written by participants. Character variable containing
