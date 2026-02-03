@@ -1,6 +1,6 @@
 
 bibentry(bibtype = "Misc",
-         key = "mohr_etall:2026",
+         key = "mohr_etall:2025",
          title = "dataitd24: FAIRqual Workshop Data from ITD24",
          author = c(person(given = "Franziska",
                            family = "Mohr",
@@ -88,8 +88,8 @@ bibentry(bibtype = "Misc",
                     person(given = "Pascal",
                            family = "Walther",
                            email = "pascal.walther@snf.ch")),
-         year = "2026",
+         year = "2025",
          doi = "10.5281/zenodo.17473502",
-         url = "https://github.com/fairqual/dataitd24",
+         url = "https://github.com/openwashdata/dataitd24",
          abstract = "Contains digitized flipchart data and qualitative analysis results from the FAIRqual workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024. The workshop gathered experiences and perspectives on sharing qualitative data in transdisciplinary research.",
          version = "0.1.0")

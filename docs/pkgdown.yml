@@ -1,8 +1,8 @@
 pandoc: 3.6.3
-pkgdown: 2.1.3
+pkgdown: 2.2.0
 pkgdown_sha: ~
 articles: {}
-last_built: 2025-10-29T10:31Z
+last_built: 2026-02-03T08:56Z
 urls:
   reference: https://github.com/fairqual/dataitd24/reference
   article: https://github.com/fairqual/dataitd24/articles
