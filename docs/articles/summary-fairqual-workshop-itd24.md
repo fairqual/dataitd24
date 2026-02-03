@@ -1,15 +1,6 @@
----
-title: "Summary of the FAIRqual workshop discussions"
----
+# Summary of the FAIRqual workshop discussions
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
-
-```{r setup}
+``` r
 library(dataitd24)
 ```
 
@@ -26,7 +17,7 @@ Conference (ITD24) that took place in Utrecht NL between 04 and 08
 November 2024 proved to be a unique opportunity to host such a workshop.
 The following is a summary of the approach and results of the workshop.
 Based on the results of the workshop, we will identify issues to be
-further explored in expert interviews with e.g. Td researchers and
+further explored in expert interviews with e.g. Td researchers and
 information specialists. The material collected from both the workshop
 and the expert interviews will be used to develop a guide for Td
 researchers on how to apply FAIR principles to qualitative data.
@@ -47,41 +38,47 @@ and an introductory presentation on the FAIR principles and open
 research data in transdisciplinary research (PowerPoint slides available
 at <https://fairqual.org/blog/posts/2024-12-05-itd24/>). For the first
 part of the workshop, participants were divided into four groups, each
-sitting at a separate table. On a flipchart (fig. 2), each table
+sitting at a separate table. On a flipchart (fig. 2), each table
 discussed the same set of questions designed to reflect on lived and
 imagined experiences of sharing qualitative data in transdisciplinary
 research:
 
--   What kind of qualitative data do you use, wish to use, or imagine
-    using in Td research?
+- What kind of qualitative data do you use, wish to use, or imagine
+  using in Td research?
 
--   How do you share, or imagine sharing this data and what are the
-    benefits?
+- How do you share, or imagine sharing this data and what are the
+  benefits?
 
--   What challenges have you experienced, or can you imagine when
-    sharing qualitative data?
+- What challenges have you experienced, or can you imagine when sharing
+  qualitative data?
 
--   Do you have any burning questions about open research data?
+- Do you have any burning questions about open research data?
 
 Led by a moderator, each table went through 3 rounds:
 
--   **Round 1:** Personal reflection on own experiences / ideas for the
-    4 sectors. Participants individually wrote down their reflections on
-    different colored post-it notes to indicate whether it was a lived /
-    imagined experience.
+- **Round 1:** Personal reflection on own experiences / ideas for the 4
+  sectors. Participants individually wrote down their reflections on
+  different colored post-it notes to indicate whether it was a lived /
+  imagined experience.
 
--   **Round 2:** Each participant shared their personal reflection by
-    going through the 4 sectors and sticking their post-it notes on the
-    flip chart.
+- **Round 2:** Each participant shared their personal reflection by
+  going through the 4 sectors and sticking their post-it notes on the
+  flip chart.
 
--   **Round 3:** Post-it notes from each sector were discussed. Similar
-    post-it notes were grouped together and an umbrella term for the
-    group was defined.
+- **Round 3:** Post-it notes from each sector were discussed. Similar
+  post-it notes were grouped together and an umbrella term for the group
+  was defined.
 
-![Fig. 1: FAIRqual workshop at ITD24 is in full swing.](img/Picture1.png)
+![Fig. 1: FAIRqual workshop at ITD24 is in full
+swing.](img/Picture1.png)
+
+Fig. 1: FAIRqual workshop at ITD24 is in full swing.
 
 ![Fig. 2: Example of a flip chart from one of the groups after going
 through all three rounds.](img/Picture1.jpg)
+
+Fig. 2: Example of a flip chart from one of the groups after going
+through all three rounds.
 
 For the second part, two groups were formed by joining two tables.
 Participants selected challenges identified in the first part and then
@@ -112,8 +109,8 @@ photographed for use in the FAIRqual project.
 
 After the workshop, all flip charts were translated into table format.
 For the four flipcharts from the first part, a table was created in
-which each post-it was considered a new row, with "table identifier",
-"imagined/lived experience", "group", and "umbrella terms" added as
+which each post-it was considered a new row, with “table identifier”,
+“imagined/lived experience”, “group”, and “umbrella terms” added as
 attributes. The two flipcharts from the second part were each organized
 into a table with two columns for the challenge and the proposed
 approach.
@@ -150,19 +147,19 @@ types reflect the full research experience of the participants and do
 not necessarily relate only to transdisciplinary research practices.
 
 A very popular data type mentioned was **interview data**. While
-"traditional" interviews were most frequent, data from other interview
+“traditional” interviews were most frequent, data from other interview
 types like focus groups, oral (hi)stories, surveys, and informal talks
 were also listed.
 
 **Products of Td processes**, often in the form of workshop outputs,
 were also mentioned as a popular type of data. Such data can include
-workshop minutes, collaboratively created flipcharts with e.g. mind
+workshop minutes, collaboratively created flipcharts with e.g. mind
 maps, post-it notes, spreadsheets, and other ways of documenting the
 workshop (personal notes, photos, quotes).
 
 Different types of **observations** are another group of data types: On
-the one hand there are data produced through participatory observations /
-ethnographic approaches that are part of a fixed methodology / data
+the one hand there are data produced through participatory observations
+/ ethnographic approaches that are part of a fixed methodology / data
 collection procedure. On the other hand, (field) notes were also
 mentioned to capture less structured observations during different
 stages of the research/teaching process, as well as notes on personal
@@ -178,8 +175,8 @@ stand-alone activity or during a workshop. However, due to its specific
 nature, it is listed separately.
 
 Another type of data mentioned was **existing documents** as a basis for
-analysis. These included both academic documents (e.g. literature,
-project reports) and non-academic documents from practice (e.g. laws,
+analysis. These included both academic documents (e.g. literature,
+project reports) and non-academic documents from practice (e.g. laws,
 company level documents). It was interesting to see that existing
 non-academic documents were mentioned quite frequently as a data type.
 
@@ -193,10 +190,10 @@ This category includes various approaches to data sharing that workshop
 participants are already practicing or could imagine practicing. A
 frequently mentioned approach is the dissemination of **summaries** of
 the research data and analysis. In written form, this could include
-scientific publications, lay summaries, letters to stakeholders, publicly
-available project reports or policy briefs. The possibility of sharing
-data/analysis results orally during presentations or exhibitions was
-also mentioned. Different options were suggested for the target
+scientific publications, lay summaries, letters to stakeholders,
+publicly available project reports or policy briefs. The possibility of
+sharing data/analysis results orally during presentations or exhibitions
+was also mentioned. Different options were suggested for the target
 audience, ranging from internal project events to public events. Some
 proposed that these events could also include interactive parts where
 participants can discuss / give feedback on the data / results.
@@ -255,7 +252,7 @@ especially if communities/individuals are not adequately involved in the
 sharing process (e.g., publication without consent or lack of awareness
 of the consequences of data sharing for local communities).
 Interestingly someone also asked if there could be potential legal
-consequences for researchers who don't know how to manage data.
+consequences for researchers who don’t know how to manage data.
 
 ### 3.4 Ways of sharing qualitative data
 
@@ -271,7 +268,7 @@ was proposed that scientists could **decide what can be shared**. For
 example, it was mentioned that it is often possible to share certain
 aspects of data like coding frequencies, respondent demographics,
 interview protocols, descriptions of the data. This discussion also
-raised the fundamental question of "what is data" when it comes to
+raised the fundamental question of “what is data” when it comes to
 sharing research data. Sharing aspects of the data, as discussed in the
 workshop, is still considered a FAIR data practice, as long as the
 corresponding datasets are findable and there is sufficient description
@@ -286,7 +283,7 @@ to exchange essential information and decide on the degree of data
 sharing, as well as working together to co-create / co-write the new
 study. Such an approach is linked to a more general possibility that
 came up several times in the discussion: making data **available only
-upon "reasonable" request** in order to control access over who uses the
+upon “reasonable” request** in order to control access over who uses the
 data and for what purposes. The question, of course, is who has the
 authority to decide whether the data can be shared? This brings us
 closer to issues of data sovereignty, which will be discussed in the
@@ -294,24 +291,24 @@ next part.
 
 ### 3.5 Data sovereignty
 
-A key question that has been discussed from different angles is: **"To
-whom does the data belong?"**. This has for example implications on the
+A key question that has been discussed from different angles is: **“To
+whom does the data belong?”**. This has for example implications on the
 decision whether data should be shared. One input was that the
 **principal investigator (PI)** has the last word on the decision of
 data re-use. Another approach would be to draw on existing practices of
-**indigenous data sovereignty** (e.g. CARE principles), where members of
+**indigenous data sovereignty** (e.g. CARE principles), where members of
 the indigenous community, rather than researchers, have the authority
 over how data are shared. On a more legal dimension, someone also raised
-the question of who owns the raw data - as well as the analysis products
-- produced by the scientist but based on/co-created with input from
-local stakeholders. This is not only an important question for data
+the question of who owns the raw data - as well as the analysis
+products - produced by the scientist but based on/co-created with input
+from local stakeholders. This is not only an important question for data
 sovereignty decisions, but could also be a legal issue if, for example,
 commercial products are developed from the research.
 
 To include participants in research to decide if raw data can be shared
 or not, there are two levels that came up in the discussions: If there
 is interest in the data on a communal / practice partners scale,
-**agreements regulating data sharing** (e.g. through the use of local
+**agreements regulating data sharing** (e.g. through the use of local
 data stewards, or platforms managed by communities) could be set up from
 the start, ensuring that data is both accessible to local communities as
 well as research.
@@ -327,16 +324,16 @@ how data will be shared. In order to maintain trust and confidentiality
 during interviews (or other data collection situations) and still have
 the possibility to publish anonymized raw data, the option of allowing
 participants to **edit the interview transcripts** (or meeting minutes,
-...) themselves before sharing them was discussed. It might be
-interesting to follow up on this option in terms of practicalities with
-researchers who are already using it.
+…) themselves before sharing them was discussed. It might be interesting
+to follow up on this option in terms of practicalities with researchers
+who are already using it.
 
 It was also discussed that informed consent may limit sharing options,
 especially for existing data, as full confidentiality is often promised
 by default. We would like to emphasize that if confidentiality has been
 previously promised in an informed consent, this is binding in any case
 and could only be changed by asking participants for additional consent,
-e.g. to share interview transcripts. However, this does not mean that
+e.g. to share interview transcripts. However, this does not mean that
 nothing can be shared, as even an openly available detailed description
 of the way and type of data collected may contain important information
 for future practice/research projects (see 3.4).
@@ -352,7 +349,7 @@ A basic aspect which shapes the sharing of qualitative data is the
 **standards and expectations of institutions** (universities, funding
 agencies, governments). It was often noted that many institutions
 currently require certain ethical standards, such as compliance with the
-European Union's General Data Protection Regulation or approval by
+European Union’s General Data Protection Regulation or approval by
 ethics committees. This was mentioned as a potentially limiting factor
 for sharing qualitative data. Some stated that it is a crucial step to
 be aware of such restrictions in advance, especially when working in
@@ -415,7 +412,7 @@ A side-issue that came up in relation to various topics was the use of
 **AI**. On the one hand, there were questions about whether it would be
 ethically possible/safe for researchers to use AI as a tool to
 facilitate the transcription process or analysis, or even to conduct
-interviews (e.g. via chatbots). On the other hand, there was also the
+interviews (e.g. via chatbots). On the other hand, there was also the
 question of whether qualitative open data could be sourced for
 large-scale analysis using only AI, or used to train future large-scale
 language models, and whether this would be ethical.
@@ -434,11 +431,12 @@ Depending on the sensitivity of the research, different aspects of data
 sharing and its pitfalls were discussed, including anonymization,
 sharing aspects of the data, and implementing access restrictions. There
 was also the question of which data repositories could be used to make
-data easily accessible while still complying with institutional policies.
-Finally, reflections on data authority will be central to Td research in
-order to find ways to shape data sharing with practice partners/local
-communities, while also giving individual research participants a voice
-in how the data might be shared (e.g., self-editing).
+data easily accessible while still complying with institutional
+policies. Finally, reflections on data authority will be central to Td
+research in order to find ways to shape data sharing with practice
+partners/local communities, while also giving individual research
+participants a voice in how the data might be shared (e.g.,
+self-editing).
 
 All in all, it became clear that Td research has many different forms,
 needs, and contents. This means that a strategy for making qualitative
@@ -450,4 +448,4 @@ and open science experts. The aim is to synthesize future findings in a
 guideline that will provide concrete examples, but also more generally
 to raise awareness of the need and possibilities of applying FAIR to
 qualitative data in Td research. Updates of the project will be
-published on the projects' website: <https://fairqual.org/>.
+published on the projects’ website: <https://fairqual.org/>.

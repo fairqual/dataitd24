@@ -1,8 +1,9 @@
 pandoc: 3.6.3
 pkgdown: 2.2.0
 pkgdown_sha: ~
-articles: {}
-last_built: 2026-02-03T08:56Z
+articles:
+  articles/summary-fairqual-workshop-itd24: summary-fairqual-workshop-itd24.html
+last_built: 2026-02-03T10:25Z
 urls:
   reference: https://github.com/fairqual/dataitd24/reference
   article: https://github.com/fairqual/dataitd24/articles
