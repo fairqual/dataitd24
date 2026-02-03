@@ -134,6 +134,20 @@ data_files |>
 
 ```
 
+### How to Download CSV Files
+
+If you prefer to work with the data outside of R, you can download
+individual datasets as CSV files:
+
+1.  **Right-click** on the "Download CSV" link for the dataset you want
+2.  Select **"Save Link As"** (Chrome, Edge, Firefox) or **"Download
+    Linked File"** (Safari)
+3.  Choose where you'd like to save the file on your computer
+
+Detailed variable descriptions for each dataset are available in the
+[reference documentation](https://fairqual.github.io/dataitd24/reference/)
+on this website.
+
 ## Installation
 
 You can install the development version of dataitd24 from
