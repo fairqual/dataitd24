@@ -70,6 +70,63 @@ to document their discussions. Key themes that emerged included:
 - Need for appropriate data repositories for qualitative data
 - Cost-benefit considerations of preparing data for sharing
 
+```{r, include=FALSE}
+## Load packages needed for download tables
+library(dplyr)
+library(knitr)
+library(readr)
+library(stringr)
+library(tibble)
+```
+
+## Download
+
+The workshop summary is available both as an online article and as a
+downloadable DOCX file. The datasets (codebook and flipcharts) can be
+downloaded as CSV or XLSX files from the tables below. For direct
+programmatic access to the data in R, install the data package following
+the guidance in the Installation section.
+
+**Workshop Summary Document:**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+extdata_path <- "https://github.com/fairqual/dataitd24/raw/main/inst/extdata/"
+vignette_path <- "https://fairqual.github.io/dataitd24/articles/"
+
+# Summary document table
+summary_table <- tibble(
+  Document = "summary_fairqual_workshop_itd24",
+  Article = paste0("[Read Article](", vignette_path,
+                   "summary-fairqual-workshop-itd24.html)"),
+  Download = paste0("[Download DOCX](", extdata_path,
+                    "summary_fairqual_workshop_itd24.docx)")
+)
+
+summary_table |>
+  knitr::kable()
+
+```
+
+**Datasets:**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Data files table
+data_files <- read_csv("data-raw/dictionary.csv") |>
+  distinct(file_name) |>
+  dplyr::mutate(file_name = str_remove(file_name, ".rda")) |>
+  dplyr::rename(Dataset = file_name) |>
+  mutate(
+    CSV = paste0("[Download CSV](", extdata_path, Dataset, ".csv)"),
+    XLSX = paste0("[Download XLSX](", extdata_path, Dataset, ".xlsx)")
+  )
+
+data_files |>
+  knitr::kable()
+
+```
+
 ## Installation
 
 You can install the development version of dataitd24 from
@@ -82,33 +139,17 @@ devtools::install_github("fairqual/dataitd24")
 
 ```{r}
 ## Run the following code in console if you don't have the packages
-## install.packages(c("dplyr", "knitr", "readr", "stringr", "gt", "kableExtra"))
+## install.packages(c("dplyr", "knitr", "readr", "stringr", "gt", "kableExtra", "tibble"))
 library(dplyr)
 library(knitr)
 library(readr)
 library(stringr)
 library(gt)
 library(kableExtra)
+library(tibble)
 ```
 
-Alternatively, you can download the individual datasets as a CSV or XLSX
-file from the table below.
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-
-extdata_path <- "https://github.com/fairqual/dataitd24/raw/main/inst/extdata/"
-
-read_csv("data-raw/dictionary.csv") |> 
-  distinct(file_name) |> 
-  dplyr::mutate(file_name = str_remove(file_name, ".rda")) |> 
-  dplyr::rename(dataset = file_name) |> 
-  mutate(
-    CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)"),
-    XLSX = paste0("[Download XLSX](", extdata_path, dataset, ".xlsx)")
-  ) |> 
-  knitr::kable()
-
-```
 
 ## Data
 
@@ -119,14 +160,29 @@ workshop:
 library(dataitd24)
 ```
 
+### summary_fairqual_workshop_itd24
+
+This document summarizes the workshop. It is available both as a
+downloadable DOCX file and as an article on this website. The file
+`summary_fairqual_workshop_itd24` describes the codes / subcategories /
+categories that were identified in a qualitative content analysis
+performed on all workshop materials (post-it notes from flipcharts; see
+`flipcharts1` and `flipcharts2`). The aim of this document is to provide
+context for the flipcharts and post-it notes created during the
+workshop, as well as summarizing the discussions that took place. For a
+tabular overview of the codes / subcategories / categories see the
+dataset `codebook_qualitative`.
+
 ### codebook_qualitative
 
-The dataset `codebook_qualitative` contains the results of qualitative
-content analysis performed on all workshop materials (post-it notes from
-flipcharts). The analysis categorized discussions about sharing
-qualitative data in transdisciplinary research into hierarchical themes.
-It has `r nrow(codebook_qualitative)` observations and
-`r ncol(codebook_qualitative)` variables.
+The dataset `codebook_qualitative` contains the codes / subcategories /
+categories that were identified in a qualitative content analysis
+performed on all workshop materials (post-it notes from flipcharts; see
+`flipcharts1` and `flipcharts2`). The analysis categorized discussions
+about sharing qualitative data in transdisciplinary research into
+hierarchical themes. It has `r nrow(codebook_qualitative)` observations
+and `r ncol(codebook_qualitative)` variables.
+
 
 ```{r}
 codebook_qualitative |> 
@@ -214,12 +270,19 @@ citation("dataitd24")
 
 ## Project Team
 
-- Dr. Franziska Mohr (USYS Transdisciplinarity Lab, ETH Zurich)
-- Lars Schöbitz (Global Health Engineering, ETH Zurich)
-- Dr. Mollie Chapman (USYS Transdisciplinarity Lab, ETH Zurich)
-- Dr. Bianca Vienni-Baptista (USYS Transdisciplinarity Lab, ETH
+- [Dr. Franziska Mohr](https://tdlab.usys.ethz.ch/team/person-detail.franziska-mohr.html)
+  ([USYS Transdisciplinarity Lab](https://tdlab.usys.ethz.ch/), ETH
   Zurich)
-- Prof. Dr. Elizabeth Tilley (Global Health Engineering, ETH Zurich)
+- [Lars Schöbitz](https://www.lse.de)
+  ([Global Health Engineering](https://ghe.ethz.ch/), ETH Zurich)
+- [Dr. Mollie Chapman](https://usys.ethz.ch/en/people/profile.MTY5Mjk4.TGlzdC82MzcsMzIwMTk3MjIy.html)
+  ([USYS Transdisciplinarity Lab](https://tdlab.usys.ethz.ch/), ETH
+  Zurich)
+- [PD Dr. Bianca Vienni-Baptista](https://tdlab.usys.ethz.ch/team/person-detail.bianca-vienni.html)
+  ([USYS Transdisciplinarity Lab](https://tdlab.usys.ethz.ch/), ETH
+  Zurich)
+- [Prof. Dr. Elizabeth Tilley](https://ghe.ethz.ch/about/people/person-detail.MTc2MjI5.TGlzdC80MTI2LC0xNDYwMDMwNTU3.html)
+  ([Global Health Engineering](https://ghe.ethz.ch/), ETH Zurich)
 
 ## Acknowledgments
 

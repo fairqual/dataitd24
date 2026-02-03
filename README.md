@@ -48,6 +48,28 @@ document their discussions. Key themes that emerged included:
 - Need for appropriate data repositories for qualitative data
 - Cost-benefit considerations of preparing data for sharing
 
+## Download
+
+The workshop summary is available both as an online article and as a
+downloadable DOCX file. The datasets (codebook and flipcharts) can be
+downloaded as CSV or XLSX files from the tables below. For direct
+programmatic access to the data in R, install the data package following
+the guidance in the Installation section.
+
+**Workshop Summary Document:**
+
+| Document | Article | Download |
+|:---|:---|:---|
+| summary_fairqual_workshop_itd24 | [Read Article](https://fairqual.github.io/dataitd24/articles/summary-fairqual-workshop-itd24.html) | [Download DOCX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/summary_fairqual_workshop_itd24.docx) |
+
+**Datasets:**
+
+| Dataset | CSV | XLSX |
+|:---|:---|:---|
+| codebook_qualitative | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.xlsx) |
+| flipcharts1 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.xlsx) |
+| flipcharts2 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.xlsx) |
+
 ## Installation
 
 You can install the development version of dataitd24 from
@@ -60,23 +82,15 @@ devtools::install_github("fairqual/dataitd24")
 
 ``` r
 ## Run the following code in console if you don't have the packages
-## install.packages(c("dplyr", "knitr", "readr", "stringr", "gt", "kableExtra"))
+## install.packages(c("dplyr", "knitr", "readr", "stringr", "gt", "kableExtra", "tibble"))
 library(dplyr)
 library(knitr)
 library(readr)
 library(stringr)
 library(gt)
 library(kableExtra)
+library(tibble)
 ```
-
-Alternatively, you can download the individual datasets as a CSV or XLSX
-file from the table below.
-
-| dataset | CSV | XLSX |
-|:---|:---|:---|
-| codebook_qualitative | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.xlsx) |
-| flipcharts1 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.xlsx) |
-| flipcharts2 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.xlsx) |
 
 ## Data
 
@@ -87,13 +101,27 @@ workshop:
 library(dataitd24)
 ```
 
+### summary_fairqual_workshop_itd24
+
+This document summarizes the workshop. It is available both as a
+downloadable DOCX file and as an article on this website. The file
+`summary_fairqual_workshop_itd24` describes the codes / subcategories /
+categories that were identified in a qualitative content analysis
+performed on all workshop materials (post-it notes from flipcharts; see
+`flipcharts1` and `flipcharts2`). The aim of this document is to provide
+context for the flipcharts and post-it notes created during the
+workshop, as well as summarizing the discussions that took place. For a
+tabular overview of the codes / subcategories / categories see the
+dataset `codebook_qualitative`.
+
 ### codebook_qualitative
 
-The dataset `codebook_qualitative` contains the results of qualitative
-content analysis performed on all workshop materials (post-it notes from
-flipcharts). The analysis categorized discussions about sharing
-qualitative data in transdisciplinary research into hierarchical themes.
-It has 50 observations and 4 variables.
+The dataset `codebook_qualitative` contains the codes / subcategories /
+categories that were identified in a qualitative content analysis
+performed on all workshop materials (post-it notes from flipcharts; see
+`flipcharts1` and `flipcharts2`). The analysis categorized discussions
+about sharing qualitative data in transdisciplinary research into
+hierarchical themes. It has 50 observations and 4 variables.
 
 ``` r
 codebook_qualitative |> 
@@ -102,7 +130,7 @@ codebook_qualitative |>
   gt::as_raw_html()
 ```
 
-<div id="rdvtmlhkbo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="bwspnewafb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -256,7 +284,7 @@ flipcharts1 |>
   gt::as_raw_html()
 ```
 
-<div id="bakpkxfoqe" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="faskipefqs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -454,7 +482,7 @@ flipcharts2 |>
   gt::as_raw_html()
 ```
 
-<div id="viidjhhlwv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="tgnnizgtjt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -613,11 +641,23 @@ citation("dataitd24")
 
 ## Project Team
 
-- Dr. Franziska Mohr (USYS Transdisciplinarity Lab, ETH Zurich)
-- Lars Schöbitz (Global Health Engineering, ETH Zurich)
-- Dr. Mollie Chapman (USYS Transdisciplinarity Lab, ETH Zurich)
-- Dr. Bianca Vienni-Baptista (USYS Transdisciplinarity Lab, ETH Zurich)
-- Prof. Dr. Elizabeth Tilley (Global Health Engineering, ETH Zurich)
+- [Dr. Franziska
+  Mohr](https://tdlab.usys.ethz.ch/team/person-detail.franziska-mohr.html)
+  ([USYS Transdisciplinarity Lab](https://tdlab.usys.ethz.ch/), ETH
+  Zurich)
+- [Lars Schöbitz](https://www.lse.de) ([Global Health
+  Engineering](https://ghe.ethz.ch/), ETH Zurich)
+- [Dr. Mollie
+  Chapman](https://usys.ethz.ch/en/people/profile.MTY5Mjk4.TGlzdC82MzcsMzIwMTk3MjIy.html)
+  ([USYS Transdisciplinarity Lab](https://tdlab.usys.ethz.ch/), ETH
+  Zurich)
+- [PD Dr. Bianca
+  Vienni-Baptista](https://tdlab.usys.ethz.ch/team/person-detail.bianca-vienni.html)
+  ([USYS Transdisciplinarity Lab](https://tdlab.usys.ethz.ch/), ETH
+  Zurich)
+- [Prof. Dr. Elizabeth
+  Tilley](https://ghe.ethz.ch/about/people/person-detail.MTc2MjI5.TGlzdC80MTI2LC0xNDYwMDMwNTU3.html)
+  ([Global Health Engineering](https://ghe.ethz.ch/), ETH Zurich)
 
 ## Acknowledgments
 
