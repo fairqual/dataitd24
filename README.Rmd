@@ -43,13 +43,13 @@ transdisciplinary research contexts.
 
 ### The FAIRqual Project
 
-[FAIRqual](https://fairqual.org/about) is a collaborative project
-between data scientists and qualitative researchers that aims to
+FAIRqual is a collaborative project between data stewards and qualitative researchers that aims to
 develop both technological implementations and conceptual procedures
 for sharing qualitative data based on the FAIR principles (Findable,
 Accessible, Interoperable, Reusable) in transdisciplinary research.
-The project is supported by the Open Research Data Program of the ETH
-Board.
+This project is supported by the [Open Research Data Program of the ETH Board](https://ethrat.ch/en/eth-domain/open-research-data/).
+
+Project website: <https://fairqual.org/about>
 
 ## Workshop Overview
 
