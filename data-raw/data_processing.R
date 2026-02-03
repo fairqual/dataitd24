@@ -73,13 +73,13 @@ fs::dir_create(here::here("inst", "extdata"))
 readr::write_csv(codebook_qualitative,
                  here::here("inst", "extdata", paste0("codebook_qualitative", ".csv")))
 readr::write_csv(flipcharts1,
-                 here::here("inst", "extdata", paste0("flipcharts_part1", ".csv")))
+                 here::here("inst", "extdata", paste0("flipcharts1", ".csv")))
 readr::write_csv(flipcharts2,
-                 here::here("inst", "extdata", paste0("flipcharts_part2", ".csv")))
+                 here::here("inst", "extdata", paste0("flipcharts2", ".csv")))
 
 openxlsx::write.xlsx(codebook_qualitative,
                      here::here("inst", "extdata", paste0("codebook_qualitative", ".xlsx")))
 openxlsx::write.xlsx(flipcharts1,
-                     here::here("inst", "extdata", paste0("flipcharts_part1", ".xlsx")))
+                     here::here("inst", "extdata", paste0("flipcharts1", ".xlsx")))
 openxlsx::write.xlsx(flipcharts2,
-                     here::here("inst", "extdata", paste0("flipcharts_part2", ".xlsx")))
+                     here::here("inst", "extdata", paste0("flipcharts2", ".xlsx")))

@@ -102,9 +102,9 @@ authors:
 - family-names: Walther
   given-names: Pascal
   email: pascal.walther@snf.ch
-repository-code: https://github.com/openwashdata/dataitd24
-url: https://github.com/openwashdata/dataitd24
-date-released: '2025-07-08'
+repository-code: https://github.com/fairqual/dataitd24
+url: https://github.com/fairqual/dataitd24
+date-released: '2026-02-03'
 contact:
 - family-names: Schöbitz
   given-names: Lars

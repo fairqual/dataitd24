@@ -54,10 +54,10 @@ devtools::install()
   - "scientific benefits" (category: "why share? Practical aspects of sharing", frequency: 1)
 
 ### Package Structure Notes
-- Currently no R functions in `R/` - this is a data-only package
-- DESCRIPTION file needs updating from template values
-- No tests or vignettes yet implemented
-- README filename has a typo: "REAMDE.md" instead of "README.md"
+- This is a data-only package with documentation files in `R/` (no functions)
+- Three data documentation files: `codebook_qualitative.R`, `flipcharts1.R`, `flipcharts2.R`
+- No tests or vignettes implemented
+- Data dictionary in `data-raw/dictionary.csv` describes all variables across datasets
 
 ## Working with the Data
 
