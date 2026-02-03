@@ -113,13 +113,20 @@ summary_table |>
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 
 # Data files table
+pictures_path <- "https://github.com/fairqual/dataitd24/tree/main/inst/extdata/pictures_flipcharts_fairqual_workshop_itd24"
+
 data_files <- read_csv("data-raw/dictionary.csv") |>
   distinct(file_name) |>
   dplyr::mutate(file_name = str_remove(file_name, ".rda")) |>
   dplyr::rename(Dataset = file_name) |>
   mutate(
     CSV = paste0("[Download CSV](", extdata_path, Dataset, ".csv)"),
-    XLSX = paste0("[Download XLSX](", extdata_path, Dataset, ".xlsx)")
+    XLSX = paste0("[Download XLSX](", extdata_path, Dataset, ".xlsx)"),
+    Pictures = case_when(
+      Dataset == "flipcharts1" ~ paste0("[View Pictures](", pictures_path, ")"),
+      Dataset == "flipcharts2" ~ paste0("[View Pictures](", pictures_path, ")"),
+      TRUE ~ NA_character_
+    )
   )
 
 data_files |>

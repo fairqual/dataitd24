@@ -64,11 +64,11 @@ the guidance in the Installation section.
 
 **Datasets:**
 
-| Dataset | CSV | XLSX |
-|:---|:---|:---|
-| codebook_qualitative | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.xlsx) |
-| flipcharts1 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.xlsx) |
-| flipcharts2 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.xlsx) |
+| Dataset | CSV | XLSX | Pictures |
+|:---|:---|:---|:---|
+| codebook_qualitative | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.xlsx) | NA |
+| flipcharts1 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.xlsx) | [View Pictures](https://github.com/fairqual/dataitd24/tree/main/inst/extdata/pictures_flipcharts_fairqual_workshop_itd24) |
+| flipcharts2 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.xlsx) | [View Pictures](https://github.com/fairqual/dataitd24/tree/main/inst/extdata/pictures_flipcharts_fairqual_workshop_itd24) |
 
 ## Installation
 
@@ -130,7 +130,7 @@ codebook_qualitative |>
   gt::as_raw_html()
 ```
 
-<div id="bwspnewafb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ihrdsrulix" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -284,7 +284,7 @@ flipcharts1 |>
   gt::as_raw_html()
 ```
 
-<div id="faskipefqs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="meabufkgoj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -482,7 +482,7 @@ flipcharts2 |>
   gt::as_raw_html()
 ```
 
-<div id="tgnnizgtjt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="fckqljpwov" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
