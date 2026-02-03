@@ -67,6 +67,6 @@ Authors@R: c(
   )
 Language: en-GB
 Config/Needs/website: rmarkdown
-Date: 2025-07-08
+Date: 2026-02-03
 URL: https://github.com/fairqual/dataitd24
 BugReports: https://github.com/fairqual/dataitd24/issues
