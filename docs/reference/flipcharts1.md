@@ -22,7 +22,8 @@ A tibble with 217 rows and 6 variables:
 
 - question_no:
 
-  Question number discussed. Numeric variable with values 1-4, where:
+  Question number discussed. Character variable with values "1", "2",
+  "3", "4", or NA, where:
 
   - 1 = What types of qualitative data have you collected?
 
@@ -31,6 +32,9 @@ A tibble with 217 rows and 6 variables:
   - 3 = What challenges did you face when sharing?
 
   - 4 = What would enable better data sharing?
+
+  - NA = Post-its from round 2 where original question placement was
+    unclear
 
 - individual_thought_postits:
 
@@ -74,7 +78,7 @@ data(flipcharts1)
 str(flipcharts1)
 #> tibble [217 × 6] (S3: tbl_df/tbl/data.frame)
 #>  $ group                     : chr [1:217] "a" "a" "a" "a" ...
-#>  $ question_no               : num [1:217] 1 1 1 1 1 1 1 1 1 1 ...
+#>  $ question_no               : chr [1:217] "1" "1" "1" "1" ...
 #>  $ individual_thought_postits: chr [1:217] "conent analysis" "storytelling diagrams? (draw and tell)" "interview transcripts" "workshop (post-its)" ...
 #>  $ type                      : chr [1:217] "lived" "lived" "lived" "lived" ...
 #>  $ comment                   : chr [1:217] NA NA NA NA ...
@@ -87,7 +91,7 @@ flipcharts1 %>%
   count(group, question_no) %>%
   pivot_wider(names_from = question_no, values_from = n)
 #> # A tibble: 4 × 6
-#>   group   `1`   `2`   `3`   `4`   `5`
+#>   group   `1`   `2`   `3`   `4`    na
 #>   <chr> <int> <int> <int> <int> <int>
 #> 1 a        22    12    15    10     2
 #> 2 b        21    21     7     5    NA
@@ -100,14 +104,14 @@ flipcharts1 %>%
   count(type, question_no)
 #> # A tibble: 9 × 3
 #>   type     question_no     n
-#>   <chr>          <dbl> <int>
-#> 1 imagined           1    14
-#> 2 imagined           2    24
-#> 3 imagined           3    20
-#> 4 imagined           4    20
-#> 5 lived              1    68
-#> 6 lived              2    34
-#> 7 lived              3    26
-#> 8 lived              4     6
-#> 9 na                 5     5
+#>   <chr>    <chr>       <int>
+#> 1 imagined 1              14
+#> 2 imagined 2              24
+#> 3 imagined 3              20
+#> 4 imagined 4              20
+#> 5 lived    1              68
+#> 6 lived    2              34
+#> 7 lived    3              26
+#> 8 lived    4               6
+#> 9 na       na              5
 ```

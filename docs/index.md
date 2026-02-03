@@ -10,12 +10,15 @@ transdisciplinary research contexts.
 
 ### The FAIRqual Project
 
-[FAIRqual](https://fairqual.org/about) is a collaborative project
-between data scientists and qualitative researchers that aims to develop
-both technological implementations and conceptual procedures for sharing
-qualitative data based on the FAIR principles (Findable, Accessible,
-Interoperable, Reusable) in transdisciplinary research. The project is
-supported by the Open Research Data Program of the ETH Board.
+FAIRqual is a collaborative project between data stewards and
+qualitative researchers that aims to develop both technological
+implementations and conceptual procedures for sharing qualitative data
+based on the FAIR principles (Findable, Accessible, Interoperable,
+Reusable) in transdisciplinary research. This project is supported by
+the [Open Research Data Program of the ETH
+Board](https://ethrat.ch/en/eth-domain/open-research-data/).
+
+Project website: <https://fairqual.org/about>
 
 ## Workshop Overview
 
@@ -57,6 +60,21 @@ the guidance in the Installation section.
 | codebook_qualitative | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/codebook_qualitative.xlsx) | NA |
 | flipcharts1 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts1.xlsx) | [View Pictures](https://github.com/fairqual/dataitd24/tree/main/inst/extdata/pictures_flipcharts_fairqual_workshop_itd24) |
 | flipcharts2 | [Download CSV](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.csv) | [Download XLSX](https://github.com/fairqual/dataitd24/raw/main/inst/extdata/flipcharts2.xlsx) | [View Pictures](https://github.com/fairqual/dataitd24/tree/main/inst/extdata/pictures_flipcharts_fairqual_workshop_itd24) |
+
+### How to Download CSV Files
+
+If you prefer to work with the data outside of R, you can download
+individual datasets as CSV files:
+
+1.  **Right-click** on the “Download CSV” link for the dataset you want
+2.  Select **“Save Link As”** (Chrome, Edge, Firefox) or **“Download
+    Linked File”** (Safari)
+3.  Choose where you’d like to save the file on your computer
+
+Detailed variable descriptions for each dataset are available in the
+[reference
+documentation](https://fairqual.github.io/dataitd24/reference/) on this
+website.
 
 ## Installation
 

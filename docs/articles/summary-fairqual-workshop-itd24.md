@@ -108,12 +108,14 @@ photographed for use in the FAIRqual project.
 ### 2.3 Digitization and analysis of workshop results
 
 After the workshop, all flip charts were translated into table format.
-For the four flipcharts from the first part, a table was created in
-which each post-it was considered a new row, with “table identifier”,
+For the four flipcharts from the first part, a table was created
+([`flipcharts1`](https://github.com/fairqual/dataitd24/reference/flipcharts1.md))
+in which each post-it was considered a new row, with “table identifier”,
 “imagined/lived experience”, “group”, and “umbrella terms” added as
 attributes. The two flipcharts from the second part were each organized
-into a table with two columns for the challenge and the proposed
-approach.
+into a table
+([`flipcharts2`](https://github.com/fairqual/dataitd24/reference/flipcharts2.md))
+with two columns for the challenge and the proposed approach.
 
 To get an overview of all topics described and discussed in the two
 rounds, both documents were analyzed in MaxQDA using qualitative content
@@ -128,14 +130,19 @@ during the discussions. The goal was for the categories to be largely
 mutually exclusive. To illustrate the overall result of the discussions,
 a short summary was written for each category/subcategory. The codebook
 as well as the digitized workshop outputs can be found in as additional
-datasets.
+datasets:
+[`codebook_qualitative`](https://github.com/fairqual/dataitd24/reference/codebook_qualitative.md),
+[`flipcharts1`](https://github.com/fairqual/dataitd24/reference/flipcharts1.md),
+and
+[`flipcharts2`](https://github.com/fairqual/dataitd24/reference/flipcharts2.md).
 
 ## 3 Summary of workshop learning outcomes
 
 In the following the identified discussion points will be presented,
 going through one thematic category at the time. Individual
 subcategories / codes are highlighted in bold to be able to refer to the
-coding book (see `codebook_qualitative`).
+coding book (see
+[`codebook_qualitative`](https://github.com/fairqual/dataitd24/reference/codebook_qualitative.md)).
 
 ### 3.1 Data types
 
