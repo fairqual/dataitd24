@@ -3,7 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   articles/summary-fairqual-workshop-itd24: summary-fairqual-workshop-itd24.html
-last_built: 2026-02-03T14:07Z
+last_built: 2026-02-05T10:12Z
 urls:
   reference: https://github.com/fairqual/dataitd24/reference
   article: https://github.com/fairqual/dataitd24/articles
