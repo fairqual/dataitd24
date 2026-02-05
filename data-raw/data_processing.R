@@ -17,23 +17,23 @@ library(dplyr)
 ## data.
 
 codebook_qualitative_sheet1 <- read_excel(
-  here::here("data-raw", "codebook_fairqual_workshop_itd24.xlsx"),
+  here::here("data-raw", "codebook_qualitative.xlsx"),
   sheet = 1
   )
 
 codebook_qualitative_sheet2 <- read_excel(
-  here::here("data-raw", "codebook_fairqual_workshop_itd24.xlsx"),
+  here::here("data-raw", "codebook_qualitative.xlsx"),
   sheet = 2
   )
 
 flipcharts_part1 <- read_excel(
-  here::here("data-raw", "digitized_flipcharts_fairqual_workshop_itd24.xlsx"),
-  sheet = "part_1"
+  here::here("data-raw", "flipcharts1.xlsx"),
+  sheet = 1
   )
 
 flipcharts_part2 <- read_excel(
-  here::here("data-raw", "digitized_flipcharts_fairqual_workshop_itd24.xlsx"),
-  sheet = "part_2"
+  here::here("data-raw", "flipcharts2.xlsx"),
+  sheet = 1
   )
 
 # codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
