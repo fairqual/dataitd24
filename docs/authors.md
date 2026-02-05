@@ -63,15 +63,15 @@ Albuquerque M, Angarita E, Cheas K, Coetzee W, Forsberg Mussault V,
 Geiges T, Helgason V, Keryan T, Mennes J, Moser S, Rittmeier A, Siegrist
 E, Silvonen T, van Vliet O, Vegt K, Wagner-Ahlfs C, Walther P (2026).
 “dataitd24: FAIRqual Workshop Data from ITD24.”
-[doi:10.5281/zenodo.17473502](https://doi.org/10.5281/zenodo.17473502),
+[doi:10.5281/zenodo.18493525](https://doi.org/10.5281/zenodo.18493525),
 <https://github.com/fairqual/dataitd24>.
 
     @Misc{mohr_etall:2026,
       title = {dataitd24: FAIRqual Workshop Data from ITD24},
       author = {Franziska Mohr and Mollie Chapman and Christian Pohl and Lars Schöbitz and Elizabeth Tilley and Bianca Vienni-Baptista and Marconi Albuquerque and Erika Angarita and Kirsi Cheas and Wilma Coetzee and Violaine Vera Charlotte {Forsberg Mussault} and Tim Geiges and Vignir Freyr Helgason and Tigran Keryan and Julie Mennes and Stephanie Moser and Aaron Rittmeier and Elena Siegrist and Taru Silvonen and Oscar {van Vliet} and Kirsten Vegt and Christian Wagner-Ahlfs and Pascal Walther},
       year = {2026},
-      doi = {10.5281/zenodo.17473502},
+      doi = {10.5281/zenodo.18493525},
       url = {https://github.com/fairqual/dataitd24},
       abstract = {Contains digitized flipchart data and qualitative analysis results from the FAIRqual workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024. The workshop gathered experiences and perspectives on sharing qualitative data in transdisciplinary research.},
-      version = {0.1.0},
+      version = {1.0.0},
     }
