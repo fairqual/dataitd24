@@ -82,11 +82,13 @@ You can install the development version of dataitd24 from
 [GitHub](https://github.com/) with:
 
 ``` r
+
 # install.packages("devtools")
 devtools::install_github("fairqual/dataitd24")
 ```
 
 ``` r
+
 ## Run the following code in console if you don't have the packages
 ## install.packages(c("dplyr", "knitr", "readr", "stringr", "gt", "kableExtra", "tibble"))
 library(dplyr)
@@ -104,6 +106,7 @@ The package provides access to three main datasets from the FAIRqual
 workshop:
 
 ``` r
+
 library(dataitd24)
 ```
 
@@ -130,6 +133,7 @@ about sharing qualitative data in transdisciplinary research into
 hierarchical themes. It has 50 observations and 4 variables.
 
 ``` r
+
 codebook_qualitative |> 
   head(3) |> 
   gt::gt() |>
@@ -159,6 +163,7 @@ experiences with qualitative data sharing. It has 217 observations and 6
 variables.
 
 ``` r
+
 flipcharts1 |> 
   head(3) |> 
   gt::gt() |>
@@ -188,6 +193,7 @@ sharing qualitative data and propose approaches to address them. It has
 9 observations and 3 variables.
 
 ``` r
+
 flipcharts2 |> 
   head(3) |> 
   gt::gt() |>
@@ -223,28 +229,29 @@ Data are available as
 Please cite this package using:
 
 ``` r
+
 citation("dataitd24")
 #> To cite package 'dataitd24' in publications use:
 #> 
-#>   Mohr F, Chapman M, Pohl C, Schöbitz L, Tilley E, Vienni-Baptista B,
+#>   Mohr F, Chapman M, Vienni-Baptista B, Pohl C, Schöbitz L, Tilley E,
 #>   Albuquerque M, Angarita E, Cheas K, Coetzee W, Forsberg Mussault V,
 #>   Geiges T, Helgason V, Keryan T, Mennes J, Moser S, Rittmeier A,
 #>   Siegrist E, Silvonen T, van Vliet O, Vegt K, Wagner-Ahlfs C, Walther
-#>   P (2025). "dataitd24: FAIRqual Workshop Data from ITD24."
-#>   doi:10.5281/zenodo.17473502
-#>   <https://doi.org/10.5281/zenodo.17473502>,
-#>   <https://github.com/openwashdata/dataitd24>.
+#>   P (2026). "dataitd24: FAIRqual Workshop Data from ITD24."
+#>   doi:10.5281/zenodo.18493525
+#>   <https://doi.org/10.5281/zenodo.18493525>.
+#>   <https://github.com/fairqual/dataitd24>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
-#>   @Misc{mohr_etall:2025,
+#>   @Misc{mohr_etall:2026,
 #>     title = {dataitd24: FAIRqual Workshop Data from ITD24},
-#>     author = {Franziska Mohr and Mollie Chapman and Christian Pohl and Lars Schöbitz and Elizabeth Tilley and Bianca Vienni-Baptista and Marconi Albuquerque and Erika Angarita and Kirsi Cheas and Wilma Coetzee and Violaine Vera Charlotte {Forsberg Mussault} and Tim Geiges and Vignir Freyr Helgason and Tigran Keryan and Julie Mennes and Stephanie Moser and Aaron Rittmeier and Elena Siegrist and Taru Silvonen and Oscar {van Vliet} and Kirsten Vegt and Christian Wagner-Ahlfs and Pascal Walther},
-#>     year = {2025},
-#>     doi = {10.5281/zenodo.17473502},
-#>     url = {https://github.com/openwashdata/dataitd24},
+#>     author = {Franziska Mohr and Mollie Chapman and Bianca Vienni-Baptista and Christian Pohl and Lars Schöbitz and Elizabeth Tilley and Marconi Albuquerque and Erika Angarita and Kirsi Cheas and Wilma Coetzee and Violaine Vera Charlotte {Forsberg Mussault} and Tim Geiges and Vignir Freyr Helgason and Tigran Keryan and Julie Mennes and Stephanie Moser and Aaron Rittmeier and Elena Siegrist and Taru Silvonen and Oscar {van Vliet} and Kirsten Vegt and Christian Wagner-Ahlfs and Pascal Walther},
+#>     year = {2026},
+#>     doi = {10.5281/zenodo.18493525},
+#>     url = {https://github.com/fairqual/dataitd24},
 #>     abstract = {Contains digitized flipchart data and qualitative analysis results from the FAIRqual workshop at the International Transdisciplinary Conference (ITD24) in Utrecht, November 2024. The workshop gathered experiences and perspectives on sharing qualitative data in transdisciplinary research.},
-#>     version = {0.0.0.9000},
+#>     version = {1.0.0},
 #>   }
 ```
 

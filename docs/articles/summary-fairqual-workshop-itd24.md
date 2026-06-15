@@ -1,6 +1,7 @@
 # Summary of the FAIRqual workshop discussions
 
 ``` r
+
 library(dataitd24)
 ```
 
