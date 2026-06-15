@@ -23,6 +23,10 @@ authors:
   given-names: Mollie
   email: mollie.chapman@usys.ethz.ch
   orcid: https://orcid.org/0000-0003-1399-2144
+- family-names: Vienni-Baptista
+  given-names: Bianca
+  email: bianca.vienni@usys.ethz.ch
+  orcid: https://orcid.org/0000-0003-1282-4288
 - family-names: Pohl
   given-names: Christian
   orcid: https://orcid.org/0000-0002-7935-464X
@@ -34,10 +38,6 @@ authors:
   given-names: Elizabeth
   email: tilleye@ethz.ch
   orcid: https://orcid.org/0000-0002-2095-9724
-- family-names: Vienni-Baptista
-  given-names: Bianca
-  email: bianca.vienni@usys.ethz.ch
-  orcid: https://orcid.org/0000-0003-1282-4288
 - family-names: Albuquerque
   given-names: Marconi
   email: marconi.albuquerque@mcti.gov.br
