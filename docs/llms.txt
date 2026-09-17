@@ -18,7 +18,7 @@ Reusable) in transdisciplinary research. This project is supported by
 the [Open Research Data Program of the ETH
 Board](https://ethrat.ch/en/eth-domain/open-research-data/).
 
-Project website: <https://fairqual.org/about>
+Project website: <https://fairqual.github.io/website/about>
 
 ## Workshop Overview
 

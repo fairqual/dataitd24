@@ -7,13 +7,14 @@ library(dataitd24)
 
 ## 1. Background
 
-The aim of the [FAIRqual project](https://fairqual.org/about) is to
-develop both technological implementations and conceptual procedures for
-sharing qualitative data based on the FAIR principles in
-transdisciplinary (Td) research. As a first project activity, we were
-interested in a broad collection of past and imagined experiences with
-open data from transdisciplinary researchers and researchers interested
-in transdisciplinary research. The International Transdisciplinary
+The aim of the [FAIRqual
+project](https://fairqual.github.io/website/about) is to develop both
+technological implementations and conceptual procedures for sharing
+qualitative data based on the FAIR principles in transdisciplinary (Td)
+research. As a first project activity, we were interested in a broad
+collection of past and imagined experiences with open data from
+transdisciplinary researchers and researchers interested in
+transdisciplinary research. The International Transdisciplinary
 Conference (ITD24) that took place in Utrecht NL between 04 and 08
 November 2024 proved to be a unique opportunity to host such a workshop.
 The following is a summary of the approach and results of the workshop.
@@ -37,12 +38,12 @@ focus related to transdisciplinarity. The workshop began with a short
 warm-up exercise, the completion of the informed consent form (see 2.2),
 and an introductory presentation on the FAIR principles and open
 research data in transdisciplinary research (PowerPoint slides available
-at <https://fairqual.org/blog/posts/2024-12-05-itd24/>). For the first
-part of the workshop, participants were divided into four groups, each
-sitting at a separate table. On a flipchart (fig. 2), each table
-discussed the same set of questions designed to reflect on lived and
-imagined experiences of sharing qualitative data in transdisciplinary
-research:
+at <https://fairqual.github.io/website/blog/posts/2024-12-05-itd24/>).
+For the first part of the workshop, participants were divided into four
+groups, each sitting at a separate table. On a flipchart (fig. 2), each
+table discussed the same set of questions designed to reflect on lived
+and imagined experiences of sharing qualitative data in
+transdisciplinary research:
 
 - What kind of qualitative data do you use, wish to use, or imagine
   using in Td research?
@@ -456,4 +457,5 @@ and open science experts. The aim is to synthesize future findings in a
 guideline that will provide concrete examples, but also more generally
 to raise awareness of the need and possibilities of applying FAIR to
 qualitative data in Td research. Updates of the project will be
-published on the projects’ website: <https://fairqual.org/>.
+published on the projects’ website:
+<https://fairqual.github.io/website/>.
