@@ -1,0 +1,194 @@
+# Comparing data publishing workflows for qualitative research: GitHub to Zenodo and SWISSUbase
+
+This article is the workflow comparison of the FAIRqual project (work
+package 1, activity 1.1). It documents how the data in this package were
+published and compares that route with SWISSUbase, which offers
+restricted access. The dataitd24 package is the worked example of the
+GitHub to Zenodo workflow. The SWISSUbase side is based on a
+walk-through of a deposit in the platform in September 2026.
+
+## Introduction
+
+The FAIRqual project aims to enhance the findability, accessibility,
+interoperability, and reusability (FAIR) of qualitative research data.
+This report documents and compares two workflows for publishing
+qualitative research data: the GitHub to Zenodo workflow used at Global
+Health Engineering (GHE), and the SWISSUbase workflow, which offers more
+options for restricted data sharing.
+
+The comparison comes from our workshop at the International
+Transdisciplinarity Conference (ITD24) in Utrecht, where participants
+consented to share the workshop data openly. This allowed us to consider
+both workflows for the same dataset.
+
+## Background
+
+### The need for qualitative data sharing
+
+Sharing qualitative data remains uncommon compared to quantitative data
+sharing, despite its potential to contribute to sustainability science
+and broader research synthesis (Alexander et al. 2020). Qualitative data
+presents its own challenges, including ethical concerns, the need for
+careful de-identification, and questions about the validity of secondary
+analysis (Lamb et al. 2024; Campbell et al. 2023).
+
+### Two approaches to data publishing
+
+1.  **GitHub to Zenodo**: an open by default approach that uses version
+    control and automated DOI generation.
+2.  **SWISSUbase**: a national platform, run by FORS with the
+    universities of Neuchâtel and Zurich, with access controls suitable
+    for sensitive or restricted data.
+
+### Framework for comparison
+
+Following Alexander et al. (2020), we use their framework of access and
+processing levels for qualitative data to guide the comparison. It helps
+researchers decide on a sharing level based on data sensitivity and
+participant consent.
+
+## Workflow comparison
+
+| Step | GitHub to Zenodo | SWISSUbase |
+|----|----|----|
+| Login | registration of an account with an email address | national: SWITCH edu-ID; international: CLARIN |
+| Technical knowledge | Git basics and the R package tooling | web forms only, no Git needed |
+| Data restriction options | public or private repository; a private repository gives access to added collaborators, but the data still sits on GitHub servers | set per dataset, not per file: open access, or restricted through a deposit contract (named data user, purpose, a term of one to five years, renewable on request) |
+| Structure | one dataset per repository, all files in one folder | project, then datasets, then files; data files and documentation files are separate types |
+| Metadata | machine readable files in the repository (CITATION.cff, .zenodo.json), reused by Zenodo | typed by hand into web forms at project and dataset level, no machine readable import; an abstract in English is required |
+| Documentation | in the same folder, with dedicated file types for different aspects | separate documentation files, which can be public in the catalogue while the data stays restricted |
+| Licence | chosen by the depositor, for example CC BY 4.0 | set per dataset; the default is non-commercial and can be changed, or reuse is set through a download contract |
+| Version control | Git history of every change | version history, which does not show who made an edit |
+| File upload | as a folder | single files or a compressed zip folder |
+| Standard formats | open formats above everything | [CLARIN-CH standard data formats](https://www.clarin-ch.ch/documentation-platform/standard-data-formats/) |
+
+Comparison of the GitHub to Zenodo and SWISSUbase workflows {.table}
+
+### Authentication and access
+
+**GitHub to Zenodo**: requires email-based registration. This makes it
+accessible globally, but can raise concerns about data governance in
+some jurisdictions.
+
+**SWISSUbase**: offers two authentication options, national access via
+SWITCH edu-ID for Swiss institutions and international access through
+CLARIN for broader academic collaboration. Identity checks come before
+access to restricted data.
+
+### Technical requirements
+
+The GitHub workflow requires familiarity with Git version control, which
+can be a barrier for researchers without a technical background.
+SWISSUbase works through web forms with validation messages, for example
+when the collection mode or the documentation is incomplete. Everything
+is entered by hand, so the metadata cannot be generated from files in a
+repository.
+
+### Data restriction options
+
+This is the key difference between the platforms. GitHub works on an
+open by default principle with limited options for controlled access.
+Private repositories are possible, but they do not meet institutional
+requirements for sensitive data protection. SWISSUbase sets access per
+dataset: a dataset is either open or restricted through a deposit
+contract, so open and restricted material from one study goes into
+separate datasets of the same project (Enriquez 2024). Documentation,
+such as interview guides and consent forms, can be public while the data
+it describes stays restricted.
+
+### Version control and long-term preservation
+
+Git version control on GitHub tracks every change and who made it, which
+supports transparency and reproducibility. SWISSUbase keeps a version
+history, but it does not show who made an edit. On the GitHub route,
+long-term preservation comes from the Zenodo archive of each release.
+
+## Benefits and limitations
+
+### GitHub to Zenodo
+
+**Benefits:**
+
+- uses existing developer infrastructure and practices
+- allows rich metadata through several standards (CITATION.cff,
+  .zenodo.json, RO-Crate)
+- supports data curation and documentation through tools like pkgdown
+- DOI generation and versioning through the Zenodo integration
+- platform independent, so the data can move between Git hosting
+  services
+
+**Limitations:**
+
+- limited options for controlled or restricted sharing
+- requires technical knowledge that may exclude some researchers
+- data protection concerns due to storage on commercial servers
+- suitable mainly for open by default scenarios
+
+### SWISSUbase
+
+**Benefits:**
+
+- access controls per dataset, with deposit contracts for restricted
+  data
+- public documentation next to restricted data
+- web forms that require little technical knowledge
+- integration with academic authentication systems
+- structured, project-based data organisation
+
+**Limitations:**
+
+- metadata is typed by hand, with no machine readable import
+- access is set per dataset, so a study with mixed access levels needs
+  several datasets
+- the version history does not record who made an edit
+
+## Recommendations
+
+1.  **For open qualitative data**: the GitHub to Zenodo workflow
+    provides more flexibility, version control, and integration options.
+    It suits researchers who are comfortable with technical tools and
+    work with non-sensitive data. This package is an example.
+2.  **For sensitive or restricted data**: SWISSUbase offers the
+    necessary access controls. It serves researchers working with
+    participant data that requires ethical oversight or graduated
+    access.
+3.  **For mixed datasets**: consider a hybrid approach, where
+    documentation and non-sensitive materials use the GitHub workflow
+    while sensitive data stays in SWISSUbase, linked through persistent
+    identifiers.
+
+## Conclusion
+
+Both workflows serve important roles in sharing qualitative data. The
+choice between them depends on data sensitivity, technical capacity, and
+institutional requirements. As Cloutier and Ravasi (2021) emphasise,
+transparency in data management enhances trustworthiness in qualitative
+research, and both platforms can achieve this in different ways.
+
+## References
+
+Alexander, Steven M., Kristal Jones, Nathan J. Bennett, et al. 2020.
+“Qualitative Data Sharing and Synthesis for Sustainability Science.”
+*Nature Sustainability* 3 (2): 81–88.
+<https://doi.org/10.1038/s41893-019-0434-8>.
+
+Campbell, Rebecca, McKenzie Javorka, Jasmine Engleton, Kathryn Fishwick,
+Katie Gregory, and Rachael Goodman-Williams. 2023. “Open-Science
+Guidance for Qualitative Research: An Empirically Validated Approach for
+De-Identifying Sensitive Narrative Data.” *Advances in Methods and
+Practices in Psychological Science* 6 (4): 25152459231205832.
+<https://doi.org/10.1177/25152459231205832>.
+
+Cloutier, Charlotte, and Davide Ravasi. 2021. “Using Tables to Enhance
+Trustworthiness in Qualitative Research.” *Strategic Organization* 19
+(1): 113–33. <https://doi.org/10.1177/1476127020979329>.
+
+Enriquez, Diana. 2024. “Publishing Publicly Available Interview Data: An
+Empirical Example of the Experience of Publishing Interview Data.”
+*Frontiers in Sociology* 9 (June).
+<https://doi.org/10.3389/fsoc.2024.1157514>.
+
+Lamb, Danielle, Amy Russell, Nicola Morant, and Fiona Stevenson. 2024.
+“The Challenges of Open Data Sharing for Qualitative Researchers.”
+*Journal of Health Psychology* 29 (7): 659–64.
+<https://doi.org/10.1177/13591053241237620>.
